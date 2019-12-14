@@ -94,9 +94,9 @@ struct MusicTheory: View {
                                 Button (action: {
                                         self.showingNextView.toggle() })
                                         {
-                                        Text("Music Theory")
+                                        Text("Sight Reading")
                                         .sheet(isPresented: $showingNextView){
-                                        MusicTheory()
+                                        Sightreading()
                                         }
                                     }
                        
