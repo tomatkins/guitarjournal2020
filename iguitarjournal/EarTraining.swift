@@ -77,12 +77,9 @@ struct EarTraining: View {
                                               Text("\(Int(warmupProgress))")
                                           
                                           }
-                                          HStack {
-                                          Stepper("Beats Per Minute", value: $BPM, in: 20...250)
-                                          Text("\(BPM) BPM")
-                                          }
                                           
-                                          TextField("Scales Journal Entry", text: $warmuptext)
+                                          
+                                          TextField("Ear Training Journal Entry", text: $warmuptext)
                                           .textFieldStyle(RoundedBorderTextFieldStyle())
                                           Spacer()
                 Button (action: {
@@ -90,7 +87,7 @@ struct EarTraining: View {
                                    }) {
                                        Text("Music Theory")
                                        .sheet(isPresented: $showingNextView){
-                                           ScalesChords()
+                                           MusicTheory()
                                        }
                                    }
                 
