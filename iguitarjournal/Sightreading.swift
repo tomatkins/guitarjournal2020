@@ -83,7 +83,7 @@ struct Sightreading: View {
                         Button (action: {
                                 self.showingNextView.toggle()
                             }) {
-                                Text("Ear Training")
+                                Text("Transcription")
                             .sheet(isPresented: $showingNextView){
                                 
                                 Transcription()
@@ -95,7 +95,7 @@ struct Sightreading: View {
                     }
 
                 }
-            .navigationBarTitle("Scales and Chords")
+            .navigationBarTitle("Sight Reading")
             }
         }
     }

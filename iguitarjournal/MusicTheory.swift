@@ -101,7 +101,7 @@ struct MusicTheory: View {
                                     }
                        
                             }
-                   }.navigationBarTitle("Ear Training")
+                   }.navigationBarTitle("Music Theory")
     
         }
     

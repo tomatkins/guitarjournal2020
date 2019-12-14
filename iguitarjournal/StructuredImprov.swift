@@ -17,7 +17,7 @@ struct StructuredImprov: View {
     
     
     var body: some View {
-        Text("Structured Improv View")
+        Text("Structured Improvisation View")
     }
 }
 
