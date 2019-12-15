@@ -75,10 +75,10 @@ struct MusicBusinessPlanner: View {
                     Button (action: {
                             self.showingNextView.toggle()
                         }) {
-                            Text("Equipment Inventory")
+                            Text("Performance Evaluation")
                         .sheet(isPresented: $showingNextView){
                             
-                            EquipmentInventory()
+                            PublicPerformanceEvaluation()
                     }
                 }
                     
@@ -87,7 +87,7 @@ struct MusicBusinessPlanner: View {
                 }
 
             }
-        .navigationBarTitle("ToneQuest")
+        .navigationBarTitle("Music Business")
         }
     }
 }

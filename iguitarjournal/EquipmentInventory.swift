@@ -84,14 +84,15 @@ struct EquipmentInventory: View {
                         Text("Is Insured")
                     }
                     
+                }
             Section (header: Text("Equipment Maintenance"))
                     {
                         
                         
                     Picker (selection: $main, label: Text("Maintenance Task"))
                         {
-                    ForEach(0 ..< main.count) {
-                            Text(self.main[$0])
+                    ForEach(0 ..< maintenance.count) {
+                            Text(self.maintenance[$0])
                                 }
                             }
             
@@ -109,7 +110,7 @@ struct EquipmentInventory: View {
                     
                 }
 
-            }
+            
                         
                         
             }
