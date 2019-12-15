@@ -10,12 +10,85 @@ import SwiftUI
 
 struct MusicBusinessPlanner: View {
     
+    var musicBusinessTask = [
+    
+        "Update Business Contacts",
+        "Update Current Promotion Tasks",
+        "Post/Plan Social Media updates",
+        "Post/Create Flyers",
+        "Research local Events",
+        "Identify New Business Team members",
+        "Check in with Business Team",
+        "Review Financials",
+        "Promote Products",
+    
+    ]
+    
+    
+    @State private var musicBusinessTaskList = 0
+    var minimumValue = 1.0
+    var maximumValue = 100.0
+           
+       @State private var toneQuestJournal = ""
+       @State private var toneQuestProgress: Double = 0
+       @State var showingNextView = false
+    
+    
+    
     //CoreData Connector
     @Environment(\.managedObjectContext) var managedObjectContext
     
     
     var body: some View {
-        Text("Music Business Planner View")
+        NavigationView {
+            Form {
+                
+                Section (header: Text("Music Business Task/Planner"))
+                {
+                
+                    Picker (selection: $musicBusinessTaskList, label: Text("Tasks"))
+                    {
+                        ForEach(0 ..< musicBusinessTask.count) {
+                        Text(self.musicBusinessTask[$0])
+                            }
+                        }
+                    
+            
+                    
+                
+            }
+                Section {
+                                    //common journal section
+                            HStack {
+                                Text("Performance Rating")
+                                Slider(value: $toneQuestProgress, in: minimumValue...maximumValue)
+                                Text("\(Int(toneQuestProgress))")
+                            
+                            }
+                           
+                            
+                            TextField("ToneQuest Journal Entry", text: $toneQuestJournal)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                            Spacer()
+             
+                    
+                    Button (action: {
+                            self.showingNextView.toggle()
+                        }) {
+                            Text("Equipment Inventory")
+                        .sheet(isPresented: $showingNextView){
+                            
+                            EquipmentInventory()
+                    }
+                }
+                    
+                    
+                    
+                }
+
+            }
+        .navigationBarTitle("ToneQuest")
+        }
     }
 }
 
