@@ -39,11 +39,12 @@ struct Sightreading: View {
     @State private var warmuptext = ""
     @State private var warmupProgress: Double = 0
     @State private var BPM = 120
+    @State var showingNextView = false
     
     //CoreData Connector
           @Environment(\.managedObjectContext) var managedObjectContext
     
-    @State var showingNextView = false
+    
           
         
         var body: some View {
