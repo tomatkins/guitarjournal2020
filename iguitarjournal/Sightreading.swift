@@ -20,6 +20,8 @@ struct Sightreading: View {
         "Foundations in Rock Guitar - Tom Atkins",
         "Berklee Press",
          "MI Press",
+         "Chord Theory - Ted Greene",
+         
          "Free Public Domain Scores- Internet",
          "Private Instruction Sources"
     ]
