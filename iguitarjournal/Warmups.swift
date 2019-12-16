@@ -153,6 +153,7 @@ struct Warmups: View {
                 
                 TextField("Warmup Journal Entry", text: $warmuptext)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
+                
                 Spacer()
                 
                     Button (action: {
@@ -167,7 +168,17 @@ struct Warmups: View {
                 
                 
                 }.navigationBarTitle("Warmups")
-            
+                    
+                .navigationBarItems(leading:
+                Button("Home") {
+                    print("Home")
+                })
+                
+                
+                .navigationBarItems(trailing:
+                        Button("End Session") {
+                            print("End Session Tapped")
+                        })
             }
         }
      }

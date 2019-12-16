@@ -18,12 +18,21 @@ struct AppView: View {
                         Text("Home")
                 }
       
+                UserPreferences()
+                    .tabItem {
+                 
+                        Image(systemName: "gear")
+                        Text("Settings")
+            }
+        
+        
                 ProgressView()
                     .tabItem {
                         
                         Image(systemName: "guitars")
                         Text("Progress")
             }
+                
         }
     }
         
