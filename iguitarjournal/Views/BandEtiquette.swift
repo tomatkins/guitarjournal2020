@@ -10,6 +10,12 @@ import SwiftUI
 
 struct BandEtiquette: View {
     
+    //core data connector
+    @Environment(\.managedObjectContext) var moc
+    
+    //@FetchRequest(entity: BandEt.entity(),
+   //               sortDescriptors: []) var bandEtiq: FetchedResults<BandEt>
+    
     
     var etiquette = [
     
@@ -36,17 +42,12 @@ struct BandEtiquette: View {
 
     ]
     
+    
     @State private var etiquetteFocus = 0
     @State private var etiquetteJournal = ""
     var minimumValue = 1.0
     var maximumValue = 100.0
     @State private var etiquetteProgress: Double = 0
-    
-    
-    
-    //CoreData Connector
-    @Environment(\.managedObjectContext) var managedObjectContext
-    
     
     
     var body: some View {

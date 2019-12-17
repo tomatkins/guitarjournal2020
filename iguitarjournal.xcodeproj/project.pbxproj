@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF42365B23A8135E00980505 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42365A23A8135E00980505 /* CoreDataManager.swift */; };
-		BF42365E23A8145C00980505 /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF42365D23A8145C00980505 /* NSManagedObjectContext+Extensions.swift */; };
 		BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */; };
 		BF5F711023A2D7C90038DAF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */; };
 		BF5F711323A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF5F711123A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld */; };
@@ -56,8 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF42365A23A8135E00980505 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		BF42365D23A8145C00980505 /* NSManagedObjectContext+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extensions.swift"; sourceTree = "<group>"; };
 		BF5F710A23A2D7C90038DAF2 /* iguitarjournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iguitarjournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,20 +114,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF42365923A8132B00980505 /* Managers */ = {
+		BF1E86D823A867DC004C200D /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				BF42365A23A8135E00980505 /* CoreDataManager.swift */,
+				BF5F711123A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld */,
 			);
-			path = Managers;
+			path = "Core Data";
 			sourceTree = "<group>";
 		};
-		BF42365C23A8141300980505 /* Extensions */ = {
+		BF42366523A82F7400980505 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BF42365D23A8145C00980505 /* NSManagedObjectContext+Extensions.swift */,
+				BFF27D6223A48DC900B12B9A /* AppView.swift */,
+				BF5F711423A2D7C90038DAF2 /* ContentView.swift */,
+				BFF27D7623A4A46D00B12B9A /* UserPreferences.swift */,
+				BFF27D6423A48E6900B12B9A /* ProgressView.swift */,
+				BFF27D5C23A48A4800B12B9A /* Warmups.swift */,
+				BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */,
+				BFF27D6023A48C4100B12B9A /* EarTraining.swift */,
+				BFF27D6623A4957400B12B9A /* MusicTheory.swift */,
+				BFF27D6823A4A1C700B12B9A /* Sightreading.swift */,
+				BFF27D6A23A4A20200B12B9A /* Transcription.swift */,
+				BFF27D6E23A4A34D00B12B9A /* StructuredImprov.swift */,
+				BFF27D6C23A4A2FD00B12B9A /* Speed.swift */,
+				BFF27D7023A4A37900B12B9A /* Songwriting.swift */,
+				BFF27D7423A4A3F200B12B9A /* ToneQuest.swift */,
+				BFF27D7223A4A3AB00B12B9A /* EquipmentInventory.swift */,
+				BFF27D7A23A4A4F800B12B9A /* MusicBusinessPlanner.swift */,
+				BFF27D7C23A4A59500B12B9A /* PublicPerformanceEvaluation.swift */,
+				BFF27D7E23A4A5FD00B12B9A /* GoalFocus.swift */,
+				BFF27D8023A4A65D00B12B9A /* BandEtiquette.swift */,
 			);
-			path = Extensions;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BF5F710123A2D7C90038DAF2 = {
@@ -157,33 +171,13 @@
 		BF5F710C23A2D7C90038DAF2 /* iguitarjournal */ = {
 			isa = PBXGroup;
 			children = (
-				BF42365C23A8141300980505 /* Extensions */,
-				BF42365923A8132B00980505 /* Managers */,
+				BF1E86D823A867DC004C200D /* Core Data */,
+				BF42366523A82F7400980505 /* Views */,
 				BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */,
 				BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */,
-				BFF27D6223A48DC900B12B9A /* AppView.swift */,
-				BF5F711423A2D7C90038DAF2 /* ContentView.swift */,
-				BFF27D7623A4A46D00B12B9A /* UserPreferences.swift */,
-				BFF27D6423A48E6900B12B9A /* ProgressView.swift */,
-				BFF27D5C23A48A4800B12B9A /* Warmups.swift */,
-				BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */,
-				BFF27D6023A48C4100B12B9A /* EarTraining.swift */,
-				BFF27D6623A4957400B12B9A /* MusicTheory.swift */,
-				BFF27D6823A4A1C700B12B9A /* Sightreading.swift */,
-				BFF27D6A23A4A20200B12B9A /* Transcription.swift */,
-				BFF27D6E23A4A34D00B12B9A /* StructuredImprov.swift */,
-				BFF27D6C23A4A2FD00B12B9A /* Speed.swift */,
-				BFF27D7023A4A37900B12B9A /* Songwriting.swift */,
-				BFF27D7423A4A3F200B12B9A /* ToneQuest.swift */,
-				BFF27D7223A4A3AB00B12B9A /* EquipmentInventory.swift */,
-				BFF27D7A23A4A4F800B12B9A /* MusicBusinessPlanner.swift */,
-				BFF27D7C23A4A59500B12B9A /* PublicPerformanceEvaluation.swift */,
-				BFF27D7E23A4A5FD00B12B9A /* GoalFocus.swift */,
-				BFF27D8023A4A65D00B12B9A /* BandEtiquette.swift */,
 				BF5F711623A2D7CA0038DAF2 /* Assets.xcassets */,
 				BF5F711B23A2D7CA0038DAF2 /* LaunchScreen.storyboard */,
 				BF5F711E23A2D7CA0038DAF2 /* Info.plist */,
-				BF5F711123A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld */,
 				BF5F711823A2D7CA0038DAF2 /* Preview Content */,
 			);
 			path = iguitarjournal;
@@ -354,7 +348,6 @@
 				BFF27D6D23A4A2FD00B12B9A /* Speed.swift in Sources */,
 				BFF27D6123A48C4100B12B9A /* EarTraining.swift in Sources */,
 				BFF27D6323A48DC900B12B9A /* AppView.swift in Sources */,
-				BF42365B23A8135E00980505 /* CoreDataManager.swift in Sources */,
 				BFF27D5F23A48BEC00B12B9A /* ScalesChords.swift in Sources */,
 				BFF27D7323A4A3AB00B12B9A /* EquipmentInventory.swift in Sources */,
 				BFF27D7B23A4A4F800B12B9A /* MusicBusinessPlanner.swift in Sources */,
@@ -369,7 +362,6 @@
 				BFF27D6523A48E6900B12B9A /* ProgressView.swift in Sources */,
 				BFF27D7123A4A37900B12B9A /* Songwriting.swift in Sources */,
 				BFF27D7D23A4A59500B12B9A /* PublicPerformanceEvaluation.swift in Sources */,
-				BF42365E23A8145C00980505 /* NSManagedObjectContext+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
