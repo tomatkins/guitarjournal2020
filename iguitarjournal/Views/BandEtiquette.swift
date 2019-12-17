@@ -7,14 +7,16 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct BandEtiquette: View {
     
-    //core data connector
-    @Environment(\.managedObjectContext) var moc
+    //core data connectors
+    @Environment(\.managedObjectContext) var managedObjectContext
     
-    //@FetchRequest(entity: BandEt.entity(),
-   //               sortDescriptors: []) var bandEtiq: FetchedResults<BandEt>
+    @FetchRequest(fetchRequest: BandEtiq.allBandEtiquetteFetchRequest()) var bandEtiqs: FetchedResults<BandEtiq>
+
+    
     
     
     var etiquette = [

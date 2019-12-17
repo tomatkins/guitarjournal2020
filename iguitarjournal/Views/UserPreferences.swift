@@ -9,9 +9,33 @@
 import SwiftUI
 
 struct UserPreferences: View {
+    //@State private var draftProfile = Profile.default
+    
+    @State private var showingAdvancedOptions = false
+    @State private var enableLogging = false
+    
+    
     var body: some View {
-        Text("User Preferences View")
+        NavigationView {
+            Form {
+                Section {
+                    Toggle(isOn: $showingAdvancedOptions.animation()) {
+                        Text("Show Advanced Options")
+                    }
+                    
+                    if showingAdvancedOptions {
+                        Toggle(isOn: $enableLogging) {
+                            Text("Enable Logging")
+                        }
+                    }
+                }
+            }
+                Text("User Preferences View")
+            
+        }.navigationBarTitle(Text("Settings"))
+    
     }
+    
 }
 
 struct UserPreferences_Previews: PreviewProvider {

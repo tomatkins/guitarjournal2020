@@ -16,14 +16,14 @@ struct AppView: View {
                         
                         Image(systemName: "house.fill")
                         Text("Home")
-                }
+        }.tag(0)
       
                 UserPreferences()
                     .tabItem {
                  
                         Image(systemName: "gear")
                         Text("Settings")
-            }
+            }.tag(1)
         
         
                 ProgressView()
@@ -31,7 +31,7 @@ struct AppView: View {
                         
                         Image(systemName: "guitars")
                         Text("Progress")
-            }
+            }.tag(2)
                 
         }
     }
