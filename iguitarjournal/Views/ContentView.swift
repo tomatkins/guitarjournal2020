@@ -34,7 +34,7 @@ struct ContentView: View {
             
             
                     
-                                       Text("Customize Routine")
+                                       Text("View all Routines")
                                    }
                                    
                                    Section (header: Text("Unguided")) {

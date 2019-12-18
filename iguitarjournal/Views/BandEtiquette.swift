@@ -14,14 +14,14 @@ struct BandEtiquette: View {
     //core data connectors
     @Environment(\.managedObjectContext) var managedObjectContext
     
-    @FetchRequest(fetchRequest: BandEtiq.allBandEtiquetteFetchRequest()) var bandEtiqs: FetchedResults<BandEtiq>
+ //   @FetchRequest(fetchRequest: BandEtiq.allBandEtiquetteFetchRequest()) var bandEtiqs: FetchedResults<BandEtiq>
 
     
     
     
-    var etiquette = [
+    let etiquette = [
     
-    "Be honest with yourself",
+    "Be Honest with yourself",
     "Help Organize anything, from set list to PA Cables",
     "Help set up and tear down for shows",
     "Help develop band merchandise",
@@ -47,8 +47,8 @@ struct BandEtiquette: View {
     
     @State private var etiquetteFocus = 0
     @State private var etiquetteJournal = ""
-    var minimumValue = 1.0
-    var maximumValue = 100.0
+    let minimumValue = 1.0
+    let maximumValue = 100.0
     @State private var etiquetteProgress: Double = 0
     
     

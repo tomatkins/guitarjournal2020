@@ -86,10 +86,10 @@ struct Transcription: View {
                                        Button (action: {
                                            self.showingNextView.toggle()
                                        }) {
-                                           Text("Structured Improvisation")
+                                           Text("Repertoire")
                                            .sheet(isPresented: $showingNextView){
                                                
-                                               StructuredImprov()
+                                               Repertoire()
                                            }
                                        }
                     
