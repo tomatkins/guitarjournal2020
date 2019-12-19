@@ -12,6 +12,8 @@ struct AllRoutines: View {
     var body: some View {
         NavigationView {
             List {
+                
+                
                 Text("All Views")
             }
         .navigationBarTitle("All Routines")
