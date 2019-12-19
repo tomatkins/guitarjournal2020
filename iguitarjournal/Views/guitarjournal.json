@@ -1,0 +1,126 @@
+[
+    {
+        "routinename":"Warmups",
+        "playground":"all",
+        "description":"Essential injury prevention routine",
+        "warmupFH": [
+            "One Fret, Finger & String",
+            "Classic 1 2 3 4",
+            "Permutations",
+            "Angular across all strings"
+                    ],
+        "warmupPH": [
+            "Strict Alternate Picking",
+            "Inside Outside Picking",
+            "Double Picking",
+            "String Skipping",
+            "Sweep Picking",
+            "Hybrid finger picking"
+                    ],
+        "permutationList": [
+                "1 2 3 4",
+                "1 2 4 3",
+                "1 3 4 2",
+                "1 3 2 4",
+                "1 4 2 3",
+                "1 4 3 2",
+                "2 1 4 3",
+                "2 1 3 4",
+                "2 3 1 4",
+                "2 3 4 1",
+                "2 4 3 1",
+                "2 4 1 3",
+                "3 4 1 2",
+                "3 4 2 1",
+                "3 2 1 4",
+                "3 2 4 1",
+                "3 1 4 2",
+                "3 1 2 4",
+                "4 3 2 1",
+                "4 3 1 2",
+                "4 2 3 1",
+                "4 2 1 3",
+                "4 1 2 3",
+                "4 1 3 2",
+        ],
+    },
+    {
+    "routinename":"Scales/Chords",
+    "playground":"all",
+    "description":"Organizing Melodic and Harmonic Routine",
+    "Key": [
+            "C",
+            "G",
+            "D",
+            "A",
+            "E",
+            "B",
+            "F#/Gb",
+            "C#/Db",
+            "Ab",
+            "Eb",
+            "Bb",
+            "F"
+            ],
+    
+        "scaleType":
+        [
+        "Major (Ionian)",
+        "Minor (Aeolian)",
+        "Dorian",
+        "Phyrigian",
+        "Lydian",
+        "Mixolydian",
+        "Locrian",
+        "Major Pentatonic",
+        "Minor Pentatonic",
+        "Diminished",
+        "Exotic"
+        ],
+        "chordList": [
+        
+                "Major",
+                 "Major 7th",
+                 "Minor",
+                 "Minor 7th",
+                 "Dominant 7th",
+                 "Diminished",
+                 "Diminished 7th",
+                 "Sus2",
+                 "Sus4",
+                 "Major 6",
+                 "Minor 9",
+                 "6/9",
+                 "13"
+
+        ],
+        "sequences": [
+                    "Straight Up and Down",
+                     "Ascending 2nds, Descending 2nds",
+                     "Ascending 3rds, Descending 3rds",
+                     "Ascending fours, Descending fours",
+                     "Ascending fives, Descending fives",
+                      "Ascending sixes, Descending sixes",
+                      "Custom Mix and Match",
+                      "Hanon Melodic Styles",
+                      "Arpeggiated Chord Sweeps, triads",
+                      "Arpeggiated Chord Sweeps, extended intervals",
+                      "three notes one String, one note next String",
+                      "Four notes per String"
+
+        ]
+        { "routineName":"Ear Training",
+            
+            
+            
+            
+            
+        }
+
+
+
+
+
+
+
+]

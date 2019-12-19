@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,22 @@
 		BF98C2AA23AB250C008A54DA /* BandEtiquetteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2A923AB250C008A54DA /* BandEtiquetteViewModel.swift */; };
 		BF98C2AC23AB285B008A54DA /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AB23AB285B008A54DA /* Dashboard.swift */; };
 		BF98C2AE23AB2B62008A54DA /* RoutineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */; };
+		BF98C2B123AB2D5B008A54DA /* FASwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BF98C2B023AB2D5B008A54DA /* FASwiftUI */; };
+		BF98C2B323AB2F86008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
+		BF98C2B623AB30BA008A54DA /* fa-solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */; };
+		BF98C2B823AB3281008A54DA /* fa-solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */; };
+		BF98C2B923AB3282008A54DA /* fa-solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */; };
+		BF98C2BC23AB3297008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
+		BF98C2BD23AB3298008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
+		BF98C2BF23AB3480008A54DA /* fa-brands-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */; };
+		BF98C2C023AB3480008A54DA /* fa-brands-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */; };
+		BF98C2C123AB3480008A54DA /* fa-brands-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */; };
+		BF98C2C323AB354C008A54DA /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */; };
+		BF98C2C423AB354C008A54DA /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */; };
+		BF98C2C523AB354C008A54DA /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */; };
+		BF98C2C723AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
+		BF98C2C823AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
+		BF98C2C923AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
 		BF9F912C23A9B43D00130F1A /* AllRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F912B23A9B43D00130F1A /* AllRoutines.swift */; };
 		BFB33ED823A927E400C14A3D /* Repertoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB33ED723A927E400C14A3D /* Repertoire.swift */; };
 		BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D5C23A48A4800B12B9A /* Warmups.swift */; };
@@ -77,6 +93,11 @@
 		BF98C2A923AB250C008A54DA /* BandEtiquetteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEtiquetteViewModel.swift; sourceTree = "<group>"; };
 		BF98C2AB23AB285B008A54DA /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineCell.swift; sourceTree = "<group>"; };
+		BF98C2B223AB2F86008A54DA /* icons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icons.json; sourceTree = "<group>"; };
+		BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.otf"; sourceTree = "<group>"; };
+		BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.otf"; sourceTree = "<group>"; };
+		BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
+		BF98C2C623AB523C008A54DA /* guitarjournal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = guitarjournal.json; path = Views/guitarjournal.json; sourceTree = "<group>"; };
 		BF9F912B23A9B43D00130F1A /* AllRoutines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRoutines.swift; sourceTree = "<group>"; };
 		BFB33ED723A927E400C14A3D /* Repertoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repertoire.swift; sourceTree = "<group>"; };
 		BFF27D5C23A48A4800B12B9A /* Warmups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warmups.swift; sourceTree = "<group>"; };
@@ -104,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF98C2B123AB2D5B008A54DA /* FASwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +207,11 @@
 		BF5F710C23A2D7C90038DAF2 /* iguitarjournal */ = {
 			isa = PBXGroup;
 			children = (
+				BF98C2C623AB523C008A54DA /* guitarjournal.json */,
+				BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */,
+				BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */,
+				BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */,
+				BF98C2B223AB2F86008A54DA /* icons.json */,
 				BF98C2A823AB249E008A54DA /* viewmodels */,
 				BF1E86D823A867DC004C200D /* Core Data */,
 				BF42366523A82F7400980505 /* Views */,
@@ -248,6 +275,9 @@
 			dependencies = (
 			);
 			name = iguitarjournal;
+			packageProductDependencies = (
+				BF98C2B023AB2D5B008A54DA /* FASwiftUI */,
+			);
 			productName = iguitarjournal;
 			productReference = BF5F710A23A2D7C90038DAF2 /* iguitarjournal.app */;
 			productType = "com.apple.product-type.application";
@@ -320,6 +350,9 @@
 				Base,
 			);
 			mainGroup = BF5F710123A2D7C90038DAF2;
+			packageReferences = (
+				BF98C2AF23AB2D5B008A54DA /* XCRemoteSwiftPackageReference "FASwiftUI" */,
+			);
 			productRefGroup = BF5F710B23A2D7C90038DAF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -337,7 +370,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5F711D23A2D7CA0038DAF2 /* LaunchScreen.storyboard in Resources */,
+				BF98C2C723AB523C008A54DA /* guitarjournal.json in Resources */,
 				BF5F711A23A2D7CA0038DAF2 /* Preview Assets.xcassets in Resources */,
+				BF98C2B623AB30BA008A54DA /* fa-solid-900.otf in Resources */,
+				BF98C2C323AB354C008A54DA /* fa-regular-400.ttf in Resources */,
+				BF98C2BF23AB3480008A54DA /* fa-brands-400.otf in Resources */,
+				BF98C2B323AB2F86008A54DA /* icons.json in Resources */,
 				BF5F711723A2D7CA0038DAF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +384,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF98C2C023AB3480008A54DA /* fa-brands-400.otf in Resources */,
+				BF98C2C823AB523C008A54DA /* guitarjournal.json in Resources */,
+				BF98C2C423AB354C008A54DA /* fa-regular-400.ttf in Resources */,
+				BF98C2BC23AB3297008A54DA /* icons.json in Resources */,
+				BF98C2B823AB3281008A54DA /* fa-solid-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +396,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF98C2C123AB3480008A54DA /* fa-brands-400.otf in Resources */,
+				BF98C2C923AB523C008A54DA /* guitarjournal.json in Resources */,
+				BF98C2C523AB354C008A54DA /* fa-regular-400.ttf in Resources */,
+				BF98C2BD23AB3298008A54DA /* icons.json in Resources */,
+				BF98C2B923AB3282008A54DA /* fa-solid-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +762,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF98C2AF23AB2D5B008A54DA /* XCRemoteSwiftPackageReference "FASwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mattmaddux/FASwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF98C2B023AB2D5B008A54DA /* FASwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF98C2AF23AB2D5B008A54DA /* XCRemoteSwiftPackageReference "FASwiftUI" */;
+			productName = FASwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		BF5F711123A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld */ = {
