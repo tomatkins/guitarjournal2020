@@ -1,11 +1,11 @@
 [
     {
-    "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A56",
+    "id": "d936ce60-688c-46ed-8228-701fe5080afb",
     "name": "Beginner Playgrounds",
     "routines": [
     {
         
-        "id":"EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "id":"31b60d38-d2f2-4c25-8fec-ecdceab462c6",
         "routineName": "Warmups",
         "playground": ["B", "I", "P"],
         "description": "Essential injury prevention routine",
@@ -13,7 +13,7 @@
         
     },
     {
-        "id":"EDCD038C-036F-4C40-826F-61C88CD84DDD",
+        "id":"fe757be1-63e2-4e33-b490-7f68194add4c",
         "routineName": "Scales/Chords",
         "playground": ["B", "I", "P"],
         "description": "Organizing Melodic and Harmonic Routine",
@@ -21,7 +21,7 @@
         
     },
     {
-        "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+        "id": "98713bc2-31ab-4be6-8e6a-205c4b5dd396",
         "routineName": "Ear Training",
         "playground": ["B", "I", "P"],
         "description": "Essential injury prevention routine",
@@ -29,7 +29,7 @@
         
     },
     {
-        "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+        "id": "b03dd0c2-7d21-4e6d-b5dc-53aa98c54060",
         "routineName": "Music Theory",
         "playground": ["B", "I", "P"],
         "description": "Understanding Essential Music Theory Concepts",
@@ -40,7 +40,7 @@
     ]
 },
     {
-        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A77",
+        "id": "67cfe7c4-6675-4d55-a3d4-207606fc37cb",
            "name": "Intermediate Playgrounds",
            "routines":
            [
@@ -48,7 +48,7 @@
     
     
     {
-        "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+        "id": "62d91e43-26c1-4596-a4d1-deacd01092a4",
         "routineName": "Sight Reading",
         "playground": ["I", "P"],
         "description": "Improve your Music Reading Skills",
@@ -56,7 +56,7 @@
         
     },
     {
-        "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+        "id": "97c8afe1-8063-483c-b1d5-9a242bafd01e",
         "routineName": "Transcription",
         "playground": ["I", "P"],
         "description": "Improve your Music Dictation Skills",
@@ -64,7 +64,7 @@
         
     },
     {
-        "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+        "id": "155aa680-01f8-420a-8888-e0280a3011a5",
         "routineName": "Repertoire",
         "playground": ["I", "P"],
         "description": "Build your Playlist",
@@ -72,7 +72,7 @@
         
     },
     {
-        "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
+        "id": "a67d00c5-b78a-40a2-869c-71a253e55f8b",
         "routineName": "Structured Improvisation",
         "playground": ["I", "P"],
         "description": "Improve your Improv",
@@ -80,7 +80,7 @@
        
     },
     {
-        "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
+        "id": "df5f11c9-2cb8-46ab-bf0a-951759184d1c",
         "routineName": "Speed",
         "playground": ["I", "P"],
         "description": "Steps to improve your Speed",
@@ -88,7 +88,7 @@
       
     },
     {
-        "id": "759527CB-1064-4082-A527-F04698F9D18F",
+        "id": "f6ec9885-64c5-442e-a5d2-9b860b819f2b",
         "routineName": "Songwriting",
         "playground": ["I", "P"],
         "description": "Journalize and Organize your own Songs",
@@ -96,7 +96,7 @@
        
     },
     {
-        "id": "AD419CE6-50CC-4132-BE8E-B92B9DFE4D02",
+        "id": "154764f6-fbc2-445d-acb4-fc9aec60ab3a",
         "routineName": "ToneQuest",
         "playground": ["I", "P"],
         "description": "Chasing that elusive sound in your Head",
@@ -104,7 +104,7 @@
        
     },
     {
-        "id": "944AB773-16CA-48F9-BB64-BB0E482FE102",
+        "id": "30b5bf01-7516-4bfd-9fc3-69813a3dd4a4",
         "routineName": "Equipment Inventory",
         "playground": ["I", "P"],
         "description": "Keeping a record of your equipment and maintenance",
@@ -116,14 +116,14 @@
     },
     
     {
-        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A86",
+        "id": "e2562c53-a82b-4f87-91c3-cb9d33078f73",
            "name": "Professional Playgrounds",
            "routines":
            [
     
     
     {
-        "id": "024763B6-2577-4D04-9A4F-321F3EB19EA6",
+        "id": "9af4e11a-2cd9-4289-8f03-d516c8cbe082",
         "routineName": "Music Business Planner",
         "playground": ["P"],
         "description": "Learn and Build your Team",
@@ -131,7 +131,7 @@
        
     },
     {
-        "id": "22E8B9F0-94C1-43EC-9B19-34F22CA17B6B",
+        "id": "d4e33ccb-0d3c-41c9-afcc-a5d6b0e182b1",
         "routineName": "Performance Evaluation",
         "playground": ["P"],
         "description": "Evaluate your Performance",
@@ -139,7 +139,7 @@
        
     },
     {
-        "id": "DD20B3C1-438A-4657-BCFA-A0C6DA1AE7EE",
+        "id": "1d8248b3-95c4-4bf8-9be3-daa3e1e07592",
         "routineName": "Goal / Focus",
         "playground": ["P"],
         "description": "Review and Update your Goals",
@@ -147,7 +147,7 @@
         
     },
     {
-        "id": "44FBAFC0-BEE0-4A02-9C57-B8ECDC1CE5E1",
+        "id": "be221734-325e-46f5-bcf5-bce8b1e97d9b",
         "routineName": "Band Etiquette",
         "playground": ["I", "P"],
         "description": "Focus on your Reputation",

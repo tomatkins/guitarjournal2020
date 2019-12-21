@@ -16,7 +16,7 @@ struct RoutineSection: Codable {
 
 struct AllRoutines: Codable, Equatable {
     var id: UUID
-    var routinename: String
+    var routineName: String
     var playground: [String]
     var description: String
     var icon: String
@@ -24,7 +24,7 @@ struct AllRoutines: Codable, Equatable {
 
     #if DEBUG
     
-    static let example = AllRoutines(id: UUID(), routinename: "Warmups", playground: ["B", "I", "P"], description: "Essential injury prevention routine", icon: "hand-paper")
+    static let example = AllRoutines(id: UUID(), routineName: "Warmups", playground: ["B", "I", "P"], description: "Essential injury prevention routine", icon: "hand-paper")
     
     #endif
 }
