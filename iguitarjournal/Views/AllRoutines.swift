@@ -8,21 +8,23 @@
 
 import SwiftUI
 
-struct AllRoutines: View {
-    var body: some View {
-        NavigationView {
-            List {
-                
-                
-                Text("All Views")
-            }
-        .navigationBarTitle("All Routines")
-        }
-    }
+struct RoutineSection: Codable {
+    var id: UUID
+    var name: String
+    var routines: [AllRoutines]
 }
 
-struct AllRoutines_Previews: PreviewProvider {
-    static var previews: some View {
-        AllRoutines()
-    }
+struct AllRoutines: Codable, Equatable {
+    var id: UUID
+    var routinename: String
+    var playground: [String]
+    var description: String
+    var icon: String
+
+
+    #if DEBUG
+    
+    static let example = AllRoutines(id: UUID(), routinename: "Warmups", playground: ["B", "I", "P"], description: "Essential injury prevention routine", icon: "hand-paper")
+    
+    #endif
 }

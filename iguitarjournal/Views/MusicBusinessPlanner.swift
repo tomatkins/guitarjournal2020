@@ -12,6 +12,14 @@ struct MusicBusinessPlanner: View {
     
     var musicBusinessTask = [
     
+        
+        "Familarize yourself with the Music Business",
+        "Learn about Managers",
+        "Learn about Booking Agents",
+        "Learn about What a Record Label does",
+        "Learn about Copyrights",
+        "Learn about Publishing",
+        "Learn about Performance Rights Organizations",
         "Update Business Contacts",
         "Update Current Promotion Tasks",
         "Post/Plan Social Media updates",

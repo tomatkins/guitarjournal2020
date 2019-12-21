@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5C38C223ADE5D50035ED6D /* FASwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BF5C38C123ADE5D50035ED6D /* FASwiftUI */; };
 		BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */; };
 		BF5F711023A2D7C90038DAF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */; };
 		BF5F711323A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF5F711123A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld */; };
@@ -19,7 +20,6 @@
 		BF98C2AA23AB250C008A54DA /* BandEtiquetteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2A923AB250C008A54DA /* BandEtiquetteViewModel.swift */; };
 		BF98C2AC23AB285B008A54DA /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AB23AB285B008A54DA /* Dashboard.swift */; };
 		BF98C2AE23AB2B62008A54DA /* RoutineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */; };
-		BF98C2B123AB2D5B008A54DA /* FASwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BF98C2B023AB2D5B008A54DA /* FASwiftUI */; };
 		BF98C2B323AB2F86008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
 		BF98C2B623AB30BA008A54DA /* fa-solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */; };
 		BF98C2B823AB3281008A54DA /* fa-solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */; };
@@ -55,6 +55,8 @@
 		BFF27D7D23A4A59500B12B9A /* PublicPerformanceEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D7C23A4A59500B12B9A /* PublicPerformanceEvaluation.swift */; };
 		BFF27D7F23A4A5FD00B12B9A /* GoalFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D7E23A4A5FD00B12B9A /* GoalFocus.swift */; };
 		BFF27D8123A4A65D00B12B9A /* BandEtiquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D8023A4A65D00B12B9A /* BandEtiquette.swift */; };
+		BFF442D823ADC9FD0025BBBD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF442D723ADC9FD0025BBBD /* Helper.swift */; };
+		BFF442DA23ADCE930025BBBD /* Routines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF442D923ADCE930025BBBD /* Routines.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,8 @@
 		BFF27D7C23A4A59500B12B9A /* PublicPerformanceEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicPerformanceEvaluation.swift; sourceTree = "<group>"; };
 		BFF27D7E23A4A5FD00B12B9A /* GoalFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalFocus.swift; sourceTree = "<group>"; };
 		BFF27D8023A4A65D00B12B9A /* BandEtiquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEtiquette.swift; sourceTree = "<group>"; };
+		BFF442D723ADC9FD0025BBBD /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BFF442D923ADCE930025BBBD /* Routines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF98C2B123AB2D5B008A54DA /* FASwiftUI in Frameworks */,
+				BF5C38C223ADE5D50035ED6D /* FASwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +163,7 @@
 			children = (
 				BFF27D6223A48DC900B12B9A /* AppView.swift */,
 				BF5F711423A2D7C90038DAF2 /* ContentView.swift */,
+				BFF442D923ADCE930025BBBD /* Routines.swift */,
 				BF9F912B23A9B43D00130F1A /* AllRoutines.swift */,
 				BFF27D7623A4A46D00B12B9A /* UserPreferences.swift */,
 				BFF27D6423A48E6900B12B9A /* ProgressView.swift */,
@@ -207,6 +212,7 @@
 		BF5F710C23A2D7C90038DAF2 /* iguitarjournal */ = {
 			isa = PBXGroup;
 			children = (
+				BFF442D723ADC9FD0025BBBD /* Helper.swift */,
 				BF98C2C623AB523C008A54DA /* guitarjournal.json */,
 				BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */,
 				BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */,
@@ -276,7 +282,7 @@
 			);
 			name = iguitarjournal;
 			packageProductDependencies = (
-				BF98C2B023AB2D5B008A54DA /* FASwiftUI */,
+				BF5C38C123ADE5D50035ED6D /* FASwiftUI */,
 			);
 			productName = iguitarjournal;
 			productReference = BF5F710A23A2D7C90038DAF2 /* iguitarjournal.app */;
@@ -351,7 +357,7 @@
 			);
 			mainGroup = BF5F710123A2D7C90038DAF2;
 			packageReferences = (
-				BF98C2AF23AB2D5B008A54DA /* XCRemoteSwiftPackageReference "FASwiftUI" */,
+				BF5C38C023ADE5D50035ED6D /* XCRemoteSwiftPackageReference "FASwiftUI" */,
 			);
 			productRefGroup = BF5F710B23A2D7C90038DAF2 /* Products */;
 			projectDirPath = "";
@@ -414,6 +420,7 @@
 				BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */,
 				BFF27D6F23A4A34D00B12B9A /* StructuredImprov.swift in Sources */,
 				BF5F711323A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld in Sources */,
+				BFF442DA23ADCE930025BBBD /* Routines.swift in Sources */,
 				BFF27D6B23A4A20200B12B9A /* Transcription.swift in Sources */,
 				BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */,
 				BFF27D6D23A4A2FD00B12B9A /* Speed.swift in Sources */,
@@ -426,6 +433,7 @@
 				BFF27D7523A4A3F200B12B9A /* ToneQuest.swift in Sources */,
 				BFF27D6723A4957400B12B9A /* MusicTheory.swift in Sources */,
 				BF98C2AC23AB285B008A54DA /* Dashboard.swift in Sources */,
+				BFF442D823ADC9FD0025BBBD /* Helper.swift in Sources */,
 				BFF27D8123A4A65D00B12B9A /* BandEtiquette.swift in Sources */,
 				BF9F912C23A9B43D00130F1A /* AllRoutines.swift in Sources */,
 				BF5F711523A2D7C90038DAF2 /* ContentView.swift in Sources */,
@@ -764,20 +772,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BF98C2AF23AB2D5B008A54DA /* XCRemoteSwiftPackageReference "FASwiftUI" */ = {
+		BF5C38C023ADE5D50035ED6D /* XCRemoteSwiftPackageReference "FASwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mattmaddux/FASwiftUI.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.2;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BF98C2B023AB2D5B008A54DA /* FASwiftUI */ = {
+		BF5C38C123ADE5D50035ED6D /* FASwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BF98C2AF23AB2D5B008A54DA /* XCRemoteSwiftPackageReference "FASwiftUI" */;
+			package = BF5C38C023ADE5D50035ED6D /* XCRemoteSwiftPackageReference "FASwiftUI" */;
 			productName = FASwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */

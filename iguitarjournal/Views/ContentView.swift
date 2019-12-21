@@ -17,6 +17,7 @@ struct ContentView: View {
     @State private var newPracticeSession = ""
     
     @State var showWarmup = false
+    @State var showRoutineList = false
     
     
     var body: some View {
@@ -32,7 +33,13 @@ struct ContentView: View {
                     Warmups()
                 }
             
-            
+            Button(action: {
+                               self.showRoutineList.toggle()
+                           }) {
+                           Text("Show Routines")
+                       }.sheet(isPresented: $showRoutineList) {
+                       Routines()
+                   }
                     
                                        Text("View all Routines")
                                    }
