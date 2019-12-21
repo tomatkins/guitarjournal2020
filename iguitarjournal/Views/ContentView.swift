@@ -25,18 +25,12 @@ struct ContentView: View {
                 List {
                     Section(header: Text("Playgrounds")) {
                         
-                        Button(action: {
-                            self.showWarmup.toggle()
-                        }) {
-                        Text("Warm Ups")
-                    }.sheet(isPresented: $showWarmup) {
-                    Warmups()
-                }
+            
             
             Button(action: {
                                self.showRoutineList.toggle()
                            }) {
-                           Text("Show Routines")
+                           Text("Show All Routines")
                        }.sheet(isPresented: $showRoutineList) {
                        Routines()
                    }

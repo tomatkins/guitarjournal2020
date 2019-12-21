@@ -8,13 +8,13 @@
 
 import SwiftUI
 
-struct RoutineSection: Codable {
+struct RoutineSection: Codable, Identifiable {
     var id: UUID
     var name: String
     var routines: [AllRoutines]
 }
 
-struct AllRoutines: Codable, Equatable {
+struct AllRoutines: Codable, Equatable, Identifiable {
     var id: UUID
     var routineName: String
     var playground: [String]

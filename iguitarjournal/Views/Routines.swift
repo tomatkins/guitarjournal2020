@@ -11,19 +11,27 @@ import UIKit
 
 struct Routines: View {
     
-    let routine = Bundle.main.decode([RoutineSection].self, from: "guitarjournal.json")
+    let menu = Bundle.main.decode([RoutineSection].self, from: "guitarjournal.json")
     
     
     var body: some View {
         NavigationView {
-        List {
-             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-             Text("Hello, World!")
-             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            List {
+                ForEach(menu) { section in
+                    Section(header: Text(section.name)) {
+                        ForEach(section.routines) { item in
+                            ItemRow(item: item)
+                        }
+            
+                    }
+                    
+                }
+                
             }
-        .navigationBarTitle("All Routines")
+            .navigationBarTitle("All Routines")
+            .listStyle(GroupedListStyle())
         }
-
+        
     }
 
 }
