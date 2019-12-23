@@ -50,7 +50,10 @@ struct BandEtiquette: View {
     let minimumValue = 1.0
     let maximumValue = 100.0
     @State private var etiquetteProgress: Double = 0
-    
+    var sliderValueRounded: Int {
+        Int(self.etiquetteProgress.rounded())
+    }
+    lazy var sliderConverted = String(sliderValueRounded)
     
     var body: some View {
         NavigationView {

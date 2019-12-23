@@ -7,18 +7,23 @@
 //
 
 import Foundation
-
+import CoreData
 
 class BandEtiquetteViewModel {
+        
     var id: UUID
+    var date: Date
     var etiquetteFocus: String
-    var etiquetteProgress: Double
+   var sliderConverted: String
     var etiquetteJournal: String
     //wait on image
-    init(etiquetteFocus: String, etiquetteProgress: Double, etiquetteJournal: String ) {
+    
+    
+    init(etiquetteFocus: String, sliderConverted: String, etiquetteJournal: String ) {
         self.id = UUID()
+        self.date = Date()
         self.etiquetteFocus = etiquetteFocus
-        self.etiquetteProgress = etiquetteProgress
+        self.sliderConverted = sliderConverted
         self.etiquetteJournal = etiquetteJournal
     }
 }
@@ -26,9 +31,9 @@ class BandEtiquetteViewModel {
 class DummyData {
     static func mockEtiquette() -> [BandEtiquetteViewModel] {
         return [
-            BandEtiquetteViewModel(etiquetteFocus: "DummyData", etiquetteProgress: 50.0, etiquetteJournal: "DummyData"),
-             BandEtiquetteViewModel(etiquetteFocus: "Even More Dummy", etiquetteProgress: 25.0, etiquetteJournal: "Cant believe the dummy"),
-        
+            BandEtiquetteViewModel(etiquetteFocus: "DummyData", sliderConverted: "50", etiquetteJournal: "DummyData"),
+             BandEtiquetteViewModel(etiquetteFocus: "Even More Dummy", sliderConverted: "25", etiquetteJournal: "Cant believe the dummy"),
+             BandEtiquetteViewModel(etiquetteFocus: "Yet more fake data", sliderConverted: "75", etiquetteJournal: "Eager to start real data")
         ]
     }
 }

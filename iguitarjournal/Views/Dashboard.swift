@@ -13,7 +13,7 @@ struct Dashboard: View {
         List {
             ForEach(DummyData.mockEtiquette(), id: \.id) {
                 item in
-                Text("\(item.etiquetteJournal)")
+                Text("\(item.etiquetteFocus)")
             }
         }
     }
