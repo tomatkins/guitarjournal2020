@@ -16,36 +16,42 @@ struct BandEtiquetteReport: View {
     
     var body: some View {
     
-    
-        HStack {
-            Spacer()
-            FAText(iconName: "user-music", size: 40)
-                .foregroundColor(.blue)
-                .padding()
-                
-        
-            VStack (alignment: .leading){
-            Text(bandEtiVM.etiquetteFocus)
-                .font(.headline)
-               
+        NavigationLink(destination: Text(bandEtiVM.etiquetteFocus)) {
             
-            Text(bandEtiVM.etiquetteJournal)
-            .font(.subheadline)
-               
+            HStack {
+                Spacer()
+                FAText(iconName: "user-music", size: 40)
+                    .foregroundColor(.blue)
+                    .padding()
+                    
+            
+                VStack (alignment: .leading){
+                Text(bandEtiVM.etiquetteFocus)
+                    .font(.body)
+                    .fontWeight(.bold)
+                   
+                
+                Text(bandEtiVM.etiquetteJournal)
+                .font(.subheadline)
+                   
+                
+            }
+                HStack  {
+                    Spacer()
+                   //Text("33")
+                        Text(bandEtiVM.sliderConverted)
+                       
+                        .fontWeight(.heavy)
+                    .padding()
+
+                    }
+                
+                }
+
+            
             
         }
-            HStack  {
-                Spacer()
-               //Text("33")
-                    Text(bandEtiVM.sliderConverted)
-                   
-                    .fontWeight(.heavy)
-                .padding()
-
-                }
-            
-            }
-
+        
             
         
 

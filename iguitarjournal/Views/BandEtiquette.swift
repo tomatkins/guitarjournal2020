@@ -50,7 +50,7 @@ struct BandEtiquette: View {
     @State private var etiquetteJournal = ""
     let minimumValue = 1.0
     let maximumValue = 100.0
-    @State private var etiquetteProgress: Double = 0
+    @State private var etiquetteProgress: Double = 50
     var sliderValueRounded: Int {
         Int(self.etiquetteProgress.rounded())
     }
@@ -60,8 +60,7 @@ struct BandEtiquette: View {
         NavigationView {
             Form {
                 
-                Section
-              {
+                Section (header: Text("Use this Routine to Check your Ego.")) {
                  
                 Picker (selection: $etiquetteFocus, label: Text("Etiquette Focus"))
                 {
@@ -69,10 +68,7 @@ struct BandEtiquette: View {
                         Text(self.etiquette [$0])
                     }
                 }
-            }
-              Section
-                {
-                //common journal section
+            
                     HStack {
                                        
                     Text("Performance Rating")
@@ -81,13 +77,25 @@ struct BandEtiquette: View {
                                    
                             }
                                    
-                    TextField("Etiquette Journal Entry", text: $etiquetteJournal)
+                    MultilineTextField("Etiquette Journal Entry", text: $etiquetteJournal)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                                  
-                    
-                    
-                    
+                       
+                    HStack (alignment: .center){
+                       Spacer()
+                        Button("Save Entry") {
+                            print("button Tapped")
+                        }
+                    }
+                
+                    .font(.headline)
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(Color.red)
+                .cornerRadius(15)
                 }
+                    
+                    
+                
                 Section (header: Text("Previous Entries"))  {
                     
                     Dashboard()
@@ -98,6 +106,7 @@ struct BandEtiquette: View {
             }.navigationBarTitle("Band Etiquette")
             
             }
+            
     }
 }
 

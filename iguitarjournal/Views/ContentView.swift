@@ -18,24 +18,35 @@ struct ContentView: View {
     
     @State var showWarmup = false
     @State var showRoutineList = false
-    
+    @State var showingDetail = false
     
     var body: some View {
          NavigationView {
+            
                 List {
                     Section(header: Text("Playgrounds")) {
                         
             
             
             Button(action: {
-                               self.showRoutineList.toggle()
-                           }) {
-                           Text("Show All Routines")
+                    self.showRoutineList.toggle()
+                           })
+            {
+                    Text("Show All Routines")
                        }.sheet(isPresented: $showRoutineList) {
                        Routines()
                    }
                     
-                                       Text("View all Routines")
+                        
+                        Button(action: {
+                                           self.showingDetail.toggle()
+                                                  })
+                                   {
+                                           Text("Band Etiquette")
+                                              }.sheet(isPresented: $showingDetail) {
+                                              BandEtiquette()
+                                          }
+                        
                                    }
                                    
                                    Section (header: Text("Unguided")) {
