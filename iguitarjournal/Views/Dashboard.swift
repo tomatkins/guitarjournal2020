@@ -13,7 +13,9 @@ struct Dashboard: View {
         List {
             ForEach(DummyData.mockEtiquette(), id: \.id) {
                 item in
-                Text("\(item.etiquetteFocus)")
+                BandEtiquetteReport(bandEtiVM: item)
+                
+                //Text("\(item.etiquetteFocus)")
             }
         }
     }

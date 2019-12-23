@@ -15,14 +15,14 @@ struct BandEtiquetteReport: View {
     
     
     var body: some View {
-       
     
-        NavigationView {
     
         HStack {
             Spacer()
-            FAText(iconName: "user-music", size: 40, style: .solid)
+            FAText(iconName: "user-music", size: 40)
+                .foregroundColor(.blue)
                 .padding()
+                
         
             VStack (alignment: .leading){
             Text(bandEtiVM.etiquetteFocus)
@@ -46,7 +46,7 @@ struct BandEtiquetteReport: View {
             
             }
 
-            }
+            
         
 
     }

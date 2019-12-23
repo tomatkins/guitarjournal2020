@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import UIKit
 import CoreData
 
 struct BandEtiquette: View {
@@ -62,9 +63,6 @@ struct BandEtiquette: View {
                 Section
               {
                  
-                
-                
-                
                 Picker (selection: $etiquetteFocus, label: Text("Etiquette Focus"))
                 {
                     ForEach(0 ..< etiquette.count) {
@@ -74,23 +72,29 @@ struct BandEtiquette: View {
             }
               Section
                 {
-                    //common journal section
-                                   HStack {
+                //common journal section
+                    HStack {
                                        
-                            Text("Performance Rating")
-                            Slider(value: $etiquetteProgress, in: minimumValue...maximumValue)
-                            Text("\(Int(etiquetteProgress))")
+                    Text("Performance Rating")
+                    Slider(value: $etiquetteProgress, in: minimumValue...maximumValue)
+                    Text("\(Int(etiquetteProgress))")
                                    
-                                   }
+                            }
                                    
-                                   TextField("Etiquette Journal Entry", text: $etiquetteJournal)
-                                   .textFieldStyle(RoundedBorderTextFieldStyle())
+                    TextField("Etiquette Journal Entry", text: $etiquetteJournal)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
                                   
                     
                     
                     
                 }
-                
+                Section (header: Text("Previous Entries"))  {
+                    
+                    Dashboard()
+                    
+                    
+                    
+                }
             }.navigationBarTitle("Band Etiquette")
             
             }
