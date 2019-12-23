@@ -127,7 +127,7 @@ struct GoalFocus: View {
                         }) {
                             Text("Band Etiquette")
                         .sheet(isPresented: $showingNextView){
-                            BandEtiquette()
+                            BandEti()
                     }
                 }
                     

@@ -41,6 +41,9 @@
 		BFBA648C23AEB30A004345E8 /* BandEtiquetteReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA648B23AEB30A004345E8 /* BandEtiquetteReport.swift */; };
 		BFBA648F23AFF625004345E8 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA648E23AFF625004345E8 /* ProfileHost.swift */; };
 		BFBA649123B09D24004345E8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649023B09D24004345E8 /* TextView.swift */; };
+		BFBA649423B13ED7004345E8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649323B13ED7004345E8 /* DataManager.swift */; };
+		BFBA649623B13FC4004345E8 /* NSManagedObjectContext+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649523B13FC4004345E8 /* NSManagedObjectContext+Extension.swift */; };
+		BFBA649823B169ED004345E8 /* BandEti.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649723B169ED004345E8 /* BandEti.swift */; };
 		BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D5C23A48A4800B12B9A /* Warmups.swift */; };
 		BFF27D5F23A48BEC00B12B9A /* ScalesChords.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */; };
 		BFF27D6123A48C4100B12B9A /* EarTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6023A48C4100B12B9A /* EarTraining.swift */; };
@@ -58,7 +61,6 @@
 		BFF27D7B23A4A4F800B12B9A /* MusicBusinessPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D7A23A4A4F800B12B9A /* MusicBusinessPlanner.swift */; };
 		BFF27D7D23A4A59500B12B9A /* PublicPerformanceEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D7C23A4A59500B12B9A /* PublicPerformanceEvaluation.swift */; };
 		BFF27D7F23A4A5FD00B12B9A /* GoalFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D7E23A4A5FD00B12B9A /* GoalFocus.swift */; };
-		BFF27D8123A4A65D00B12B9A /* BandEtiquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D8023A4A65D00B12B9A /* BandEtiquette.swift */; };
 		BFF442D823ADC9FD0025BBBD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF442D723ADC9FD0025BBBD /* Helper.swift */; };
 		BFF442DA23ADCE930025BBBD /* Routines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF442D923ADCE930025BBBD /* Routines.swift */; };
 /* End PBXBuildFile section */
@@ -110,6 +112,9 @@
 		BFBA648B23AEB30A004345E8 /* BandEtiquetteReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BandEtiquetteReport.swift; path = iguitarjournal/Views/BandEtiquetteReport.swift; sourceTree = SOURCE_ROOT; };
 		BFBA648E23AFF625004345E8 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		BFBA649023B09D24004345E8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		BFBA649323B13ED7004345E8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BFBA649523B13FC4004345E8 /* NSManagedObjectContext+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extension.swift"; sourceTree = "<group>"; };
+		BFBA649723B169ED004345E8 /* BandEti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEti.swift; sourceTree = "<group>"; };
 		BFF27D5C23A48A4800B12B9A /* Warmups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warmups.swift; sourceTree = "<group>"; };
 		BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalesChords.swift; sourceTree = "<group>"; };
 		BFF27D6023A48C4100B12B9A /* EarTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTraining.swift; sourceTree = "<group>"; };
@@ -127,7 +132,6 @@
 		BFF27D7A23A4A4F800B12B9A /* MusicBusinessPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBusinessPlanner.swift; sourceTree = "<group>"; };
 		BFF27D7C23A4A59500B12B9A /* PublicPerformanceEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicPerformanceEvaluation.swift; sourceTree = "<group>"; };
 		BFF27D7E23A4A5FD00B12B9A /* GoalFocus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalFocus.swift; sourceTree = "<group>"; };
-		BFF27D8023A4A65D00B12B9A /* BandEtiquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEtiquette.swift; sourceTree = "<group>"; };
 		BFF442D723ADC9FD0025BBBD /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		BFF442D923ADCE930025BBBD /* Routines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,7 +195,7 @@
 				BFF27D7A23A4A4F800B12B9A /* MusicBusinessPlanner.swift */,
 				BFF27D7C23A4A59500B12B9A /* PublicPerformanceEvaluation.swift */,
 				BFF27D7E23A4A5FD00B12B9A /* GoalFocus.swift */,
-				BFF27D8023A4A65D00B12B9A /* BandEtiquette.swift */,
+				BFBA649723B169ED004345E8 /* BandEti.swift */,
 				BFBA649023B09D24004345E8 /* TextView.swift */,
 				BF98C2AB23AB285B008A54DA /* Dashboard.swift */,
 				BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */,
@@ -222,6 +226,7 @@
 		BF5F710C23A2D7C90038DAF2 /* iguitarjournal */ = {
 			isa = PBXGroup;
 			children = (
+				BFBA649223B13EAF004345E8 /* Helpers */,
 				BFBA648D23AFF607004345E8 /* profile */,
 				BFF442D723ADC9FD0025BBBD /* Helper.swift */,
 				BF98C2C623AB523C008A54DA /* guitarjournal.json */,
@@ -283,6 +288,15 @@
 				BFBA648E23AFF625004345E8 /* ProfileHost.swift */,
 			);
 			path = profile;
+			sourceTree = "<group>";
+		};
+		BFBA649223B13EAF004345E8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA649323B13ED7004345E8 /* DataManager.swift */,
+				BFBA649523B13FC4004345E8 /* NSManagedObjectContext+Extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,6 +460,7 @@
 				BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */,
 				BFF27D6D23A4A2FD00B12B9A /* Speed.swift in Sources */,
 				BFF27D6123A48C4100B12B9A /* EarTraining.swift in Sources */,
+				BFBA649423B13ED7004345E8 /* DataManager.swift in Sources */,
 				BFF27D6323A48DC900B12B9A /* AppView.swift in Sources */,
 				BFF27D5F23A48BEC00B12B9A /* ScalesChords.swift in Sources */,
 				BFF27D7323A4A3AB00B12B9A /* EquipmentInventory.swift in Sources */,
@@ -456,12 +471,12 @@
 				BFF27D6723A4957400B12B9A /* MusicTheory.swift in Sources */,
 				BF98C2AC23AB285B008A54DA /* Dashboard.swift in Sources */,
 				BFF442D823ADC9FD0025BBBD /* Helper.swift in Sources */,
-				BFF27D8123A4A65D00B12B9A /* BandEtiquette.swift in Sources */,
 				BF9F912C23A9B43D00130F1A /* AllRoutines.swift in Sources */,
 				BF5F711523A2D7C90038DAF2 /* ContentView.swift in Sources */,
 				BFF27D7723A4A46D00B12B9A /* UserPreferences.swift in Sources */,
 				BF5F711023A2D7C90038DAF2 /* SceneDelegate.swift in Sources */,
 				BFF27D7F23A4A5FD00B12B9A /* GoalFocus.swift in Sources */,
+				BFBA649623B13FC4004345E8 /* NSManagedObjectContext+Extension.swift in Sources */,
 				BFF27D6923A4A1C700B12B9A /* Sightreading.swift in Sources */,
 				BFF27D6523A48E6900B12B9A /* ProgressView.swift in Sources */,
 				BF98C2AE23AB2B62008A54DA /* RoutineCell.swift in Sources */,
@@ -470,6 +485,7 @@
 				BFBA648A23AEA38C004345E8 /* ItemRow.swift in Sources */,
 				BFF27D7D23A4A59500B12B9A /* PublicPerformanceEvaluation.swift in Sources */,
 				BFB33ED823A927E400C14A3D /* Repertoire.swift in Sources */,
+				BFBA649823B169ED004345E8 /* BandEti.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

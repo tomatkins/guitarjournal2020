@@ -44,7 +44,7 @@ struct ContentView: View {
                                    {
                                            Text("Band Etiquette")
                                               }.sheet(isPresented: $showingDetail) {
-                                              BandEtiquette()
+                                              BandEti()
                                           }
                         
                                    }

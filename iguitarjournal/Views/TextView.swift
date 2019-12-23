@@ -108,6 +108,8 @@ struct MultilineTextField: View {
     }
 
     var body: some View {
+        
+        
         UITextViewWrapper(text: self.internalText, calculatedHeight: $dynamicHeight, onDone: onCommit)
             .frame(minHeight: dynamicHeight, maxHeight: dynamicHeight)
             .overlay(placeholderView, alignment: .topLeading)
