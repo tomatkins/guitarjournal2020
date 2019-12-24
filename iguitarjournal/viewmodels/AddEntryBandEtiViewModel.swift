@@ -14,7 +14,8 @@ class AddEntryBandEtiViewModel {
     var sliderConverted: String = ""
     var etiquetteJournal: String = ""
     
-    func saveBandEti(saved: @escaping ()  -> Void) {
+    func saveEntry(saved: @escaping ()  -> Void) {
         DataManager.shared.saveBandEtiEntry(etiquetteFocus: self.etiquetteFocus, sliderConverted: self.sliderConverted, etiquetteJournal: self.etiquetteJournal)
+        saved()
     }
 }

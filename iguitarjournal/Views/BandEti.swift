@@ -116,11 +116,11 @@ struct BandEti: View {
         }
     
     func saveEntry() {
-        let vm = BandEtiquetteViewModel(etiquetteFocus: "", sliderConverted: "", etiquetteJournal: "")
-        vm.etiquetteFocus = self.$etiquetteFocus.wrappedValue
-        vm.etiquetteJournal = self .$etiquetteJournal.wrappedValue
-        vm.sliderConverted = self.sliderConverted.wrappedValue
-        vm.saveBandEti {
+    let vm = BandEtiquetteViewModel()
+    vm.etiquetteFocus = self.$etiquetteFocus.wrappedValue
+    vm.etiquetteJournal = self .$etiquetteJournal.wrappedValue
+    vm.sliderConverted = self.sliderConverted.wrappedValue
+    vm.saveBandEti {
             self.showingAlert = true
             self.onSave(true)
             self.$etiquetteFocus.wrappedValue = ""

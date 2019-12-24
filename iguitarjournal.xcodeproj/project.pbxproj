@@ -228,6 +228,7 @@
 		BF5F710C23A2D7C90038DAF2 /* iguitarjournal */ = {
 			isa = PBXGroup;
 			children = (
+				BF87584023B1DF3900EE9E21 /* bandetiquette */,
 				BFBA649223B13EAF004345E8 /* Helpers */,
 				BFBA648D23AFF607004345E8 /* profile */,
 				BFF442D723ADC9FD0025BBBD /* Helper.swift */,
@@ -273,6 +274,13 @@
 				BF5F713423A2D7CA0038DAF2 /* Info.plist */,
 			);
 			path = iguitarjournalUITests;
+			sourceTree = "<group>";
+		};
+		BF87584023B1DF3900EE9E21 /* bandetiquette */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bandetiquette;
 			sourceTree = "<group>";
 		};
 		BF98C2A823AB249E008A54DA /* viewmodels */ = {
