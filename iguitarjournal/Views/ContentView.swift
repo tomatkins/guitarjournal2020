@@ -38,17 +38,17 @@ struct ContentView: View {
                    }
                     
                         
-                        Button(action: {
-                                           self.showingDetail.toggle()
-                                                  })
-                                   {
-                                           Text("Band Etiquette")
-                                              }.sheet(isPresented: $showingDetail) {
-                                              BandEti()
-                                          }
-                        
-                                   }
-                                   
+//                        Button(action: {
+//                                           self.showingDetail.toggle()
+//                                                  })
+//                                   {
+//                                           Text("Band Etiquette")
+//                                              }.sheet(isPresented: $showingDetail) {
+//                                              BandEti()
+//                                          }
+//
+                    }
+                    
                                    Section (header: Text("Unguided")) {
                                    
                                     Text("Free Play/Unguided")

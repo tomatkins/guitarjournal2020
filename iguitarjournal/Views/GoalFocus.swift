@@ -122,14 +122,14 @@ struct GoalFocus: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             Spacer()
                     
-                    Button (action: {
-                            self.showingNextView.toggle()
-                        }) {
-                            Text("Band Etiquette")
-                        .sheet(isPresented: $showingNextView){
-                            BandEti()
-                    }
-                }
+//                    Button (action: {
+//                            self.showingNextView.toggle()
+//                        }) {
+//                            Text("Band Etiquette")
+//                        .sheet(isPresented: $showingNextView){
+//                            BandEti()
+//                    }
+//                }
                     
                     
                     

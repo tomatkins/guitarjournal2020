@@ -17,21 +17,55 @@ class DataManager {
     private init (context: NSManagedObjectContext) {
         self.context = context
     }
-    // get all Entities Data
+    // get all Data
+    // [BandEtiquette here is the Core Data Entity
     
     func getBandEtiquette() -> [BandEtiquette] {
         var bandEtis = [BandEtiquette]()
         let bandEtiRequest: NSFetchRequest<BandEtiquette> = BandEtiquette.fetchRequest()
         
         do {
-                   bandEtis = try self.context.fetch(bandEtiRequest)
-               } catch let error as NSError {
+            bandEtis = try self.context.fetch(bandEtiRequest)
+            } catch let error as NSError {
                    print(error)
                }
                return bandEtis
         
     }
     
+    // save the Entry
+    func saveBandEtiEntry(etiquetteFocus: String, sliderConverted: String, etiquetteJournal: String) {
+        let bandEti = BandEtiquette(context: self.context)
+        //system creates UUID & Date
+        bandEti.id = UUID()
+        bandEti.date = Date()
+        bandEti.etiquetteFocus = etiquetteFocus
+        bandEti.sliderConverted = sliderConverted
+        bandEti.etiquetteJournal = etiquetteJournal
+        
+        do {
+            try self.context.save()
+            } catch let error as NSError {
+            print(error)
+            }
+        
+    }
+    
+    
+    // delete an entry
+    func deleteBandEtiqEntry(id: UUID) {
+        let fetchRequest: NSFetchRequest<BandEtiquette> = BandEtiquette.fetchRequest()
+        fetchRequest.predicate = NSPredicate.init(format: "id=%@", id.uuidString)
+        do {
+            let fetchedEntries = try context.fetch(fetchRequest)
+            for pl in fetchedEntries {
+                context.delete(pl)
+            }
+            try context.save()
+        } catch let error as NSError {
+            print(error)
+        }
+    }
     
     
     
