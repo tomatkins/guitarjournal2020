@@ -10,14 +10,14 @@ import SwiftUI
 import UIKit
 import CoreData
 
-struct BandEtiquette: View {
+struct BandEtiq: View {
     
     //core data connectors
     @Environment(\.managedObjectContext) var managedObjectContext
     
  //   @FetchRequest(fetchRequest: BandEtiq.allBandEtiquetteFetchRequest()) var bandEtiqs: FetchedResults<BandEtiq>
 
-    
+    @State private var showTextArea = false
     
     
     let etiquette = [
@@ -76,7 +76,21 @@ struct BandEtiquette: View {
                     Text("\(Int(etiquetteProgress))")
                                    
                             }
-                                   
+                    
+                    
+//            Button(action: {
+//                self.showTextArea.toggle()
+//                    })
+//                {
+//                Text("Journal Entry")
+//                    }.sheet(isPresented: $showTextArea) {
+//
+//                    UITextViewWrapper()
+//
+//            }
+                    
+                    
+                    
                     MultilineTextField("Etiquette Journal Entry", text: $etiquetteJournal)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                        
@@ -112,6 +126,6 @@ struct BandEtiquette: View {
 
 struct BandEtiquette_Previews: PreviewProvider {
     static var previews: some View {
-        BandEtiquette()
+        BandEtiq()
     }
 }

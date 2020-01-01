@@ -6,6 +6,7 @@
 //  Copyright © 2019 High Strung Productions LLC. All rights reserved.
 //
 
+
 import Foundation
 import UIKit
 import CoreData
@@ -13,12 +14,14 @@ import CoreData
 class DataManager {
     
     static let shared = DataManager(context:NSManagedObjectContext.current)
+    
     var context: NSManagedObjectContext
+    
     private init (context: NSManagedObjectContext) {
         self.context = context
     }
     // get all Data
-    // [BandEtiquette here is the Core Data Entity
+    // [BandEtiquette] here is the Core Data Entity
     
     func getBandEtiquette() -> [BandEtiquette] {
         var bandEtis = [BandEtiquette]()
@@ -34,13 +37,13 @@ class DataManager {
     }
     
     // save the Entry
-    func saveBandEtiEntry(etiquetteFocus: String, sliderConverted: String, etiquetteJournal: String) {
+    func saveBandEtiEntry(etiquetteFocus: String, etiquetteProgress: Double, etiquetteJournal: String) {
         let bandEti = BandEtiquette(context: self.context)
         //system creates UUID & Date
         bandEti.id = UUID()
         bandEti.date = Date()
         bandEti.etiquetteFocus = etiquetteFocus
-        bandEti.sliderConverted = sliderConverted
+        bandEti.etiquetteProgress = etiquetteProgress
         bandEti.etiquetteJournal = etiquetteJournal
         
         do {

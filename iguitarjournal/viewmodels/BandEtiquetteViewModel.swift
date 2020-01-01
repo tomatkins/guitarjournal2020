@@ -14,16 +14,13 @@ class BandEtiquetteViewModel {
     var id: UUID
     var date: Date
     var etiquetteFocus: String
-   var sliderConverted: String
+   var etiquetteProgress: Double
     var etiquetteJournal: String
-    //wait on image
-    
-    
-    init(etiquetteFocus: String, sliderConverted: String, etiquetteJournal: String ) {
+    init(etiquetteFocus: String, etiquetteProgress: Double, etiquetteJournal: String ) {
         self.id = UUID()
         self.date = Date()
         self.etiquetteFocus = etiquetteFocus
-        self.sliderConverted = sliderConverted
+        self.etiquetteProgress = etiquetteProgress
         self.etiquetteJournal = etiquetteJournal
     }
 }
@@ -31,9 +28,9 @@ class BandEtiquetteViewModel {
 class DummyData {
     static func mockEtiquette() -> [BandEtiquetteViewModel] {
         return [
-            BandEtiquetteViewModel(etiquetteFocus: "DummyData", sliderConverted: "50", etiquetteJournal: "DummyData"),
-             BandEtiquetteViewModel(etiquetteFocus: "Even More Dummy", sliderConverted: "25", etiquetteJournal: "Cant believe the dummy"),
-             BandEtiquetteViewModel(etiquetteFocus: "Yet more fake data", sliderConverted: "75", etiquetteJournal: "Eager to start real data")
+            BandEtiquetteViewModel(etiquetteFocus: "DummyData", etiquetteProgress: 50, etiquetteJournal: "DummyData"),
+             BandEtiquetteViewModel(etiquetteFocus: "Even More Dummy", etiquetteProgress: 25, etiquetteJournal: "Cant believe the dummy"),
+             BandEtiquetteViewModel(etiquetteFocus: "Yet more fake data", etiquetteProgress: 75, etiquetteJournal: "Eager to start real data")
         ]
     }
 }

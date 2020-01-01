@@ -39,7 +39,7 @@ struct BandEtiquetteReport: View {
                 HStack  {
                     Spacer()
                    //Text("33")
-                        Text(bandEtiVM.sliderConverted)
+                    Text(String ("\(bandEtiVM.etiquetteProgress)"))
                        
                         .fontWeight(.heavy)
                     .padding()
@@ -61,7 +61,7 @@ struct BandEtiquetteReport: View {
 
 struct BandEtiquetteReport_Previews: PreviewProvider {
     static var previews: some View {
-        BandEtiquetteReport(bandEtiVM: BandEtiquetteViewModel( etiquetteFocus: "Be Nice", sliderConverted: "33", etiquetteJournal: "Trying to be Nice"))
+        BandEtiquetteReport(bandEtiVM: BandEtiquetteViewModel( etiquetteFocus: "Be Nice", etiquetteProgress: 33, etiquetteJournal: "Trying to be Nice"))
     }
 }
 

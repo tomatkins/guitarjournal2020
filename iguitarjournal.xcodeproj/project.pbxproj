@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5B6E3523BD1EF100615335 /* TestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5B6E3423BD1EF100615335 /* TestForm.swift */; };
 		BF5C38C223ADE5D50035ED6D /* FASwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BF5C38C123ADE5D50035ED6D /* FASwiftUI */; };
 		BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */; };
 		BF5F711023A2D7C90038DAF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5B6E3423BD1EF100615335 /* TestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestForm.swift; path = iguitarjournal/Views/TestForm.swift; sourceTree = "<group>"; };
 		BF5F710A23A2D7C90038DAF2 /* iguitarjournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iguitarjournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		BF5F710123A2D7C90038DAF2 = {
 			isa = PBXGroup;
 			children = (
+				BF5B6E3423BD1EF100615335 /* TestForm.swift */,
 				BF5F710C23A2D7C90038DAF2 /* iguitarjournal */,
 				BF5F712623A2D7CA0038DAF2 /* iguitarjournalTests */,
 				BF5F713123A2D7CA0038DAF2 /* iguitarjournalUITests */,
@@ -462,6 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5B6E3523BD1EF100615335 /* TestForm.swift in Sources */,
 				BFBA648C23AEB30A004345E8 /* BandEtiquetteReport.swift in Sources */,
 				BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */,
 				BFF27D6F23A4A34D00B12B9A /* StructuredImprov.swift in Sources */,

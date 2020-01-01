@@ -11,11 +11,12 @@ import Foundation
 
 class AddEntryBandEtiViewModel {
     var etiquetteFocus: String = ""
-    var sliderConverted: String = ""
+    var etiquetteProgress: Double = 0
     var etiquetteJournal: String = ""
     
     func saveEntry(saved: @escaping ()  -> Void) {
-        DataManager.shared.saveBandEtiEntry(etiquetteFocus: self.etiquetteFocus, sliderConverted: self.sliderConverted, etiquetteJournal: self.etiquetteJournal)
+        DataManager.shared.saveBandEtiEntry(etiquetteFocus: self.etiquetteFocus, etiquetteProgress: self.etiquetteProgress, etiquetteJournal: self.etiquetteJournal)
         saved()
     }
+    
 }

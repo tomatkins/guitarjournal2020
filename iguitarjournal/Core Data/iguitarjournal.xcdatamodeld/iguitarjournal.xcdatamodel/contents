@@ -4,8 +4,8 @@
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="etiquetteFocus" optional="YES" attributeType="String"/>
         <attribute name="etiquetteJournal" optional="YES" attributeType="String"/>
+        <attribute name="etiquetteProgress" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="sliderConverted" optional="YES" attributeType="String"/>
     </entity>
     <elements>
         <element name="BandEtiquette" positionX="-63" positionY="-18" width="128" height="118"/>
