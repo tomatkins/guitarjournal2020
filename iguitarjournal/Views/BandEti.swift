@@ -7,11 +7,11 @@
 //
 
 import SwiftUI
-import CoreData
+
 
 struct BandEti: View {
    
-    let etiquette = [
+    var eti: [String] = [
         
         "Be Honest with yourself",
         "Help Organize anything, from set list to PA Cables",
@@ -32,104 +32,83 @@ struct BandEti: View {
         "Be Mindful of your thoughts, be calm",
         "Demonstrate patience toward yourself and others",
         "Think before reacting in emotional conditions",
-        "Perform at your very best, no excuses.",
+        "Perform at your very best, no excuses."
         
     ]
     
-    @State private var etiquetteFocus = 0
+    @State private var etiquetteFocus: String! = "Test Value"
     
-    // handle nutty issue with slider conversion from double to string.
     @State private var etiquetteProgress: Double = 0
-    let minimumValue = 1.0
-    let maximumValue = 100.0
-    var sliderValueRounded: Int {
-        Int(self.etiquetteProgress.rounded())
-    }
-    lazy var sliderConverted = String(sliderValueRounded)
-    
-    var onSave: (_ success: Bool) -> Void
     
     @State private var etiquetteJournal = ""
     
     @State private var showingAlert = false
     
+    var onSave: (_ success: Bool) -> Void
     
     var body: some View {
         NavigationView {
             Form {
-                
-                Section (header: Text("Gather your Thoughts"))
-                {
-                    Picker (selection: $etiquetteFocus, label: Text("Etiquette Focus"))
+                    Section (header: Text("Gather your Thoughts"))
                     {
-                        ForEach(0 ..< etiquette.count) {
-                            Text(self.etiquette [$0])
-                        }
-                    }
+                
+                      //etiquetteFocus = "Temp"
+                        
+//                        Picker(selection: $etiquetteFocus, label: Text("Etiquette Focus")) {
+//                            ForEach(0 ..< self.eti.count) {
+//                                Text(self.eti[$0])
+//                                }
+//
+//                            }
+                        
+                        
+                    Text("Performance Rating")
+                        
+                        Slider(value: $etiquetteProgress, in:  1...100, step: 1.0)
                     
-                    HStack {
+                        //Text("value is \(Int16(etiquetteProgress))")
                         
-                        Text("Performance Rating")
-                        Slider(value: $etiquetteProgress, in: minimumValue...maximumValue)
-                        Text("\(Int(etiquetteProgress))")
-                        
-                    }
+                  
                     
                     TextField("Etiquette Journal Entry", text: $etiquetteJournal)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
-                     HStack {
-                                   Button("Save Entry") {
-                                    self.saveEntry()
-                                   }
-                                   .alert(isPresented: self.$showingAlert){
-                                    Alert(title: Text("Saved!"),
-                                          message: Text("Band Etiquette Answer is Saved."), dismissButton:.default(Text("OK!")))
-                                    
-                        }
+                     
+                        Button("Save Entry") {
+                                    // print("Button Pressed")
+                        //self.saveEntry()
+                            
+//                                   }
+//                                   .alert(isPresented: self.$showingAlert) {
+//                                    Alert(title: Text("Saved!!!"), message: Text("Your Band Etiquette Entry is saved."), dismissButton: .default(("Ok!")))
+//
+//                        }
                         
                                    }
-                                
-                               }
-                               .font(.headline)
-                               .padding()
-                               .foregroundColor(.white)
-                               .background(Color.orange)
-                               .cornerRadius(15)
-                    
-                    
-                    
-                }
-                Section (header: Text("Previous Entries"))
-                {
+                                              
                     
                     Dashboard()
-                    
-                    
-                    
-                    
-                }
-                
-                
+               
             }.navigationBarTitle("Band Etiquette")
+          
+        }
             
-        }
+}
     
-    func saveEntry() {
-    let vm = BandEtiquetteViewModel()
-    vm.etiquetteFocus = self.$etiquetteFocus.wrappedValue
-    vm.etiquetteJournal = self .$etiquetteJournal.wrappedValue
-    vm.sliderConverted = self.sliderConverted.wrappedValue
-    vm.saveBandEti {
-            self.showingAlert = true
-            self.onSave(true)
-            self.$etiquetteFocus.wrappedValue = ""
-            self.sliderConverted.wrappedValue = ""
-            self.$etiquetteJournal.wrappedValue = ""
-        }
+//    func saveEntry() {
+//    let vm = AddEntryBandEtiViewModel()
+//        vm.etiquetteFocus = self.$etiquetteFocus.wrappedValue!
+//    vm.etiquetteJournal = self.$etiquetteJournal.wrappedValue
+//    vm.etiquetteProgress = self.$etiquetteProgress.wrappedValue
+//    vm.saveEntry {
+//        self.showingAlert = true
+//        self.onSave(true)
+//        self.$etiquetteFocus.wrappedValue = ""
+//        self.$etiquetteProgress.wrappedValue = 0
+//        self.$etiquetteJournal.wrappedValue = ""
+//        }
     }
 }
-
 
 
 
