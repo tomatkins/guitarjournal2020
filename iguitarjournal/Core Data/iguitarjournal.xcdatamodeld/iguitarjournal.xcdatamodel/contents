@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="BandEtiquette" representedClassName="BandEtiquette" syncable="YES">
+    <entity name="Etiquette" representedClassName="Etiquette" syncable="YES">
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="etiquetteFocus" optional="YES" attributeType="String"/>
         <attribute name="etiquetteJournal" optional="YES" attributeType="String"/>
@@ -8,6 +8,6 @@
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
     </entity>
     <elements>
-        <element name="BandEtiquette" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Etiquette" positionX="-63" positionY="-18" width="128" height="118"/>
     </elements>
 </model>

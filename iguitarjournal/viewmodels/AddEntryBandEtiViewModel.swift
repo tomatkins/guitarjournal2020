@@ -15,7 +15,7 @@ class AddEntryBandEtiViewModel {
     var etiquetteJournal: String = ""
     
     func saveEntry(saved: @escaping ()  -> Void) {
-        DataManager.shared.saveBandEtiEntry(etiquetteFocus: self.etiquetteFocus, etiquetteProgress: self.etiquetteProgress, etiquetteJournal: self.etiquetteJournal)
+        DataManager.shared.saveBandEtiEntry(etiquetteFocus: self.etiquetteFocus, etiquetteProgress: NSNumber(value: self.etiquetteProgress), etiquetteJournal: self.etiquetteJournal)
         saved()
     }
     

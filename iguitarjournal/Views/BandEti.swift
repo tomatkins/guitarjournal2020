@@ -7,10 +7,15 @@
 //
 
 import SwiftUI
-
+import CoreData
 
 struct BandEti: View {
    
+        @Environment(\.managedObjectContext) var managedObjectContext
+    
+     @FetchRequest(fetchRequest: Etiquette.etiquetteFetchRequest()) var etiquettes: FetchedResults<Etiquette>
+    
+    
     var eti: [String] = [
         
         "Be Honest with yourself",
@@ -89,7 +94,7 @@ struct BandEti: View {
                     
                     Dashboard()
                
-            }.navigationBarTitle("Band Etiquette")
+            }.navigationBarTitle("Etiquette")
           
         }
             

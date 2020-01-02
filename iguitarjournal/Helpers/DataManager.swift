@@ -23,9 +23,9 @@ class DataManager {
     // get all Data
     // [BandEtiquette] here is the Core Data Entity
     
-    func getBandEtiquette() -> [BandEtiquette] {
-        var bandEtis = [BandEtiquette]()
-        let bandEtiRequest: NSFetchRequest<BandEtiquette> = BandEtiquette.fetchRequest()
+    func getBandEtiquette() -> [Etiquette] {
+        var bandEtis = [Etiquette]()
+        let bandEtiRequest: NSFetchRequest<Etiquette> = Etiquette.fetchRequest() as! NSFetchRequest<Etiquette>
         
         do {
             bandEtis = try self.context.fetch(bandEtiRequest)
@@ -37,8 +37,8 @@ class DataManager {
     }
     
     // save the Entry
-    func saveBandEtiEntry(etiquetteFocus: String, etiquetteProgress: Double, etiquetteJournal: String) {
-        let bandEti = BandEtiquette(context: self.context)
+    func saveBandEtiEntry(etiquetteFocus: String, etiquetteProgress: NSNumber, etiquetteJournal: String) {
+        let bandEti = Etiquette(context: self.context)
         //system creates UUID & Date
         bandEti.id = UUID()
         bandEti.date = Date()
@@ -57,7 +57,7 @@ class DataManager {
     
     // delete an entry
     func deleteBandEtiqEntry(id: UUID) {
-        let fetchRequest: NSFetchRequest<BandEtiquette> = BandEtiquette.fetchRequest()
+        let fetchRequest: NSFetchRequest<Etiquette> = Etiquette.fetchRequest() as! NSFetchRequest<Etiquette>
         fetchRequest.predicate = NSPredicate.init(format: "id=%@", id.uuidString)
         do {
             let fetchedEntries = try context.fetch(fetchRequest)

@@ -9,20 +9,20 @@
 import Foundation
 import CoreData
 
-public class: BandEtiquette: NSManagedObject, Identifiable {
+public class Etiquette: NSManagedObject, Identifiable {
     @NSManaged public var date: Date?
     @NSManaged public var etiquetteFocus: String?
-    @NSManaged public var etiquetteProgress: Double?
+    @NSManaged public var etiquetteProgress: NSNumber?
     @NSManaged public var etiquetteJournal: String?
     @NSManaged public var id: UUID?
 }
 
-extension BandEtiquette {
+extension Etiquette {
     
-    static func bandEtiquetteFetchRequest() -> NSFetchRequest<BandEtiquette> {
-        let request: NSFetchRequest<BandEtiquette> = BandEtiquette.fetchRequest() as! NSFetchRequest<BandEtiquette>
+    static func etiquetteFetchRequest() -> NSFetchRequest<Etiquette> {
+        let request: NSFetchRequest<Etiquette> = Etiquette.fetchRequest() as! NSFetchRequest<Etiquette>
         
-        request.sortDescriptors = [NSSortDescriptor(key: date, ascending: true)]
+        request.sortDescriptors = [NSSortDescriptor(key: "", ascending: true)]
         
         return request
     }
