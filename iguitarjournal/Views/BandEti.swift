@@ -11,7 +11,7 @@ import CoreData
 
 struct BandEti: View {
    
-        @Environment(\.managedObjectContext) var managedObjectContext
+    //@Environment(\.managedObjectContext) var managedObjectContext
     
      @FetchRequest(fetchRequest: Etiquette.etiquetteFetchRequest()) var etiquettes: FetchedResults<Etiquette>
     
@@ -57,14 +57,14 @@ struct BandEti: View {
                     Section (header: Text("Gather your Thoughts"))
                     {
                 
-                      //etiquetteFocus = "Temp"
+                     
                         
-//                        Picker(selection: $etiquetteFocus, label: Text("Etiquette Focus")) {
-//                            ForEach(0 ..< self.eti.count) {
-//                                Text(self.eti[$0])
-//                                }
-//
-//                            }
+                        Picker(selection: $etiquetteFocus, label: Text("Etiquette Focus")) {
+                            ForEach(0 ..< self.eti.count) {
+                                Text(self.eti[$0])
+                                }
+
+                            }
                         
                         
                     Text("Performance Rating")

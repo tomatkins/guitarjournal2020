@@ -71,7 +71,7 @@ struct Warmups: View {
     @State private var warmuptext = ""
     @State private var warmupProgress: Double = 0
     @State private var BPM = 120
-   
+   @State var backToContentView = false
     
     //CoreData Connector
     @Environment(\.managedObjectContext) var managedObjectContext
@@ -177,6 +177,10 @@ struct Warmups: View {
                 
                 .navigationBarItems(trailing:
                         Button("End Session") {
+
+                            self.backToContentView.toggle()
+                            
+                            
                             print("End Session Tapped")
                         })
             }

@@ -84,6 +84,8 @@ struct ScalesChords: View {
       @State private var warmuptext = ""
       @State private var warmupProgress: Double = 0
       @State private var BPM = 120
+    @State var showingDetail = false
+    
       //CoreData Connector
       @Environment(\.managedObjectContext) var managedObjectContext
 

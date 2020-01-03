@@ -38,14 +38,15 @@ struct ContentView: View {
                    }
                     
                         
-//                        Button(action: {
-//                                           self.showingDetail.toggle()
-//                                                  })
-//                                   {
-//                                           Text("Band Etiquette")
-//                                              }.sheet(isPresented: $showingDetail) {
-//                                              BandEti()
-//                                          }
+                        Button(action: {
+                            self.showingDetail.toggle()
+                                        })
+                                   {
+                                    Text("Start Practicing!")
+                                    }.sheet(isPresented: $showingDetail)
+                                    {
+                                    Warmups()
+                                    }
 //
                     }
                     
