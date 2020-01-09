@@ -9,11 +9,28 @@
 import SwiftUI
 import CoreData
 
+
+@objc(Etiquette)
+public class Etiquette: NSManagedObject {
+    
+}
+extension Etiquette: Identifiable {
+    public var id: String? {
+        return etiquetteFocus
+    }
+}
+
+
+
 struct BandEti: View {
    
-    //@Environment(\.managedObjectContext) var managedObjectContext
+    @Environment(\.managedObjectContext) var managedObjectContext
     
-     @FetchRequest(fetchRequest: Etiquette.etiquetteFetchRequest()) var etiquettes: FetchedResults<Etiquette>
+    @FetchRequest (entity: Etiquette.entity(), sortDescriptors: ([NSSortDescriptor(keyPath: \Etiquette.id, ascending: true)])
+   ) private var etiquettes: FetchedResults<Etiquette>
+    
+    @Binding var selectedEti: String?
+    
     
     
     var eti: [String] = [
@@ -41,15 +58,17 @@ struct BandEti: View {
         
     ]
     
-    @State private var etiquetteFocus: String! = "Test Value"
-    
+    @State private var etiquetteFocus: String?
     @State private var etiquetteProgress: Double = 0
-    
     @State private var etiquetteJournal = ""
-    
     @State private var showingAlert = false
     
     var onSave: (_ success: Bool) -> Void
+    
+    //temporary in-memory storage for new etiquette entries
+    @State private var newEtiquetteFocus = ""
+    @State private var newEtiquetteProgress = 0.0
+    @State private var newEtiquetteJournal = ""
     
     var body: some View {
         NavigationView {
@@ -71,26 +90,34 @@ struct BandEti: View {
                         
                         Slider(value: $etiquetteProgress, in:  1...100, step: 1.0)
                     
-                        //Text("value is \(Int16(etiquetteProgress))")
+                        Text("value is \(Double(etiquetteProgress))")
                         
                   
                     
-                    TextField("Etiquette Journal Entry", text: $etiquetteJournal)
+                        TextField("Etiquette Journal Entry", text: self.$etiquetteJournal)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
                      
-                        Button("Save Entry") {
-                                    // print("Button Pressed")
-                        //self.saveEntry()
-                            
-//                                   }
-//                                   .alert(isPresented: self.$showingAlert) {
-//                                    Alert(title: Text("Saved!!!"), message: Text("Your Band Etiquette Entry is saved."), dismissButton: .default(("Ok!")))
-//
-//                        }
+                        Button(action: ({
+                                   
+                            let etiq = Etiquette(context: self.managedObjectContext)
+                            etiq.etiquetteFocus = self.newEtiquetteFocus
+                            etiq.etiquetteProgress = self.newEtiquetteProgress
+                            etiq.etiquetteJournal = self.newEtiquetteJournal
                         
-                                   }
-                                              
+                            do {
+                                try.self.managedObjectContext.save()
+                            }catch {
+                                print(error)
+                            }
+                            
+                            //reset temporary in-memory storage
+                            self.newEtiquetteFocus = ""
+                            self.newEtiquetteProgress = 0
+                            self.newEtiquetteJournal = ""
+                        }))
+                           
+                        
                     
                     Dashboard()
                

@@ -13,12 +13,13 @@ struct ContentView: View {
 
      @Environment(\.managedObjectContext) var managedObjectContext
 
+    @FetchRequest(fetchRequest: Etiquette.etiquetteFetchRequest()) var etiquettes: FetchedResults<Etiquette>
     
     @State private var newPracticeSession = ""
     
     @State var showWarmup = false
     @State var showRoutineList = false
-    @State var showingDetail = false
+    @State var showingView = false
     
     var body: some View {
          NavigationView {
@@ -39,11 +40,11 @@ struct ContentView: View {
                     
                         
                         Button(action: {
-                            self.showingDetail.toggle()
+                            self.showingView.toggle()
                                         })
                                    {
-                                    Text("Start Practicing!")
-                                    }.sheet(isPresented: $showingDetail)
+                                    Text("Start Beginner Routine")
+                                    }.sheet(isPresented: $showingView)
                                     {
                                     Warmups()
                                     }

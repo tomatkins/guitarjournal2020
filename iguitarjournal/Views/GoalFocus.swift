@@ -7,8 +7,15 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct GoalFocus: View {
+    
+    //CoreData Connector
+      @Environment(\.managedObjectContext) var managedObjectContext
+    
+    
+    @FetchRequest(fetchRequest: Etiquette.etiquetteFetchRequest()) var etiquettes: FetchedResults<Etiquette>
     
     
     var musicalGoalFocus = [
@@ -73,8 +80,7 @@ struct GoalFocus: View {
     
     
     
-    //CoreData Connector
-    @Environment(\.managedObjectContext) var managedObjectContext
+  
     
     
     var body: some View {
@@ -129,7 +135,7 @@ struct GoalFocus: View {
 //                        .sheet(isPresented: $showingNextView){
 //                            BandEti()
 //                    }
-//                }
+//            }
                     
                     
                     
