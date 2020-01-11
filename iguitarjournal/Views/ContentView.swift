@@ -11,9 +11,7 @@ import CoreData
 
 struct ContentView: View {
 
-     @Environment(\.managedObjectContext) var managedObjectContext
 
-    @FetchRequest(fetchRequest: Etiquette.etiquetteFetchRequest()) var etiquettes: FetchedResults<Etiquette>
     
     @State private var newPracticeSession = ""
     

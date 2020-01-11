@@ -11,12 +11,6 @@ import CoreData
 
 struct GoalFocus: View {
     
-    //CoreData Connector
-      @Environment(\.managedObjectContext) var managedObjectContext
-    
-    
-    @FetchRequest(fetchRequest: Etiquette.etiquetteFetchRequest()) var etiquettes: FetchedResults<Etiquette>
-    
     
     var musicalGoalFocus = [
       
@@ -91,10 +85,11 @@ struct GoalFocus: View {
                 {
                 
                    Picker (selection: $musicalGoals, label: Text("Musical Goals"))
-                                      {
-                                          ForEach(0 ..< musicalGoalFocus.count) {
-                                          Text(self.musicalGoalFocus[$0])
-                                              }
+                        {
+                        ForEach(0 ..< musicalGoalFocus.count)
+                            {
+                                Text(self.musicalGoalFocus[$0])
+                                    }
                                           }
                                       
                     
@@ -128,14 +123,14 @@ struct GoalFocus: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
             Spacer()
                     
-//                    Button (action: {
-//                            self.showingNextView.toggle()
-//                        }) {
-//                            Text("Band Etiquette")
-//                        .sheet(isPresented: $showingNextView){
-//                            BandEti()
-//                    }
-//            }
+                    Button (action: {
+                            self.showingNextView.toggle()
+                        }) {
+                            Text("Band Etiquette")
+                        .sheet(isPresented: $showingNextView){
+                            BandEti()
+                    }
+            }
                     
                     
                     

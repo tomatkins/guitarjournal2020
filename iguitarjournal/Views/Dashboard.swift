@@ -11,15 +11,11 @@ import SwiftUI
 struct Dashboard: View {
     var body: some View {
         List {
-            ForEach(DummyData.mockEtiquette(), id: \.id) {
-                item in
-                BandEtiquetteReport(bandEtiVM: item)
-                
-                //Text("\(item.etiquetteFocus)")
+           Text("List demo")
             }
         }
     }
-}
+
 
 struct Dashboard_Previews: PreviewProvider {
     static var previews: some View {

@@ -14,15 +14,6 @@ import CoreData
 
 struct BandEti: View {
    
-    @Environment(\.managedObjectContext) var managedObjectContext
-    
-    @FetchRequest (entity: Etiquette.entity(), sortDescriptors: ([NSSortDescriptor(keyPath: \Etiquette.id, ascending: true)])
-   ) private var etiquettes: FetchedResults<Etiquette>
-    
-    @Binding var selectedEti: String?
-    
-    
-    
     var eti: [String] = [
         
         "Be Honest with yourself",
@@ -48,65 +39,44 @@ struct BandEti: View {
         
     ]
     
-    @State private var etiquetteFocus: String?
+    @State private var etiquetteFocus = 0
     @State private var etiquetteProgress: Double = 0
     @State private var etiquetteJournal = ""
     @State private var showingAlert = false
-    
-    var onSave: (_ success: Bool) -> Void
-    
-    //temporary in-memory storage for new etiquette entries
-    @State private var newEtiquetteFocus = ""
-    @State private var newEtiquetteProgress = 0.0
-    @State private var newEtiquetteJournal = ""
+    var minimumValue = 1.0
+    var maximumValue = 100.0
     
     var body: some View {
         NavigationView {
             Form {
                     Section (header: Text("Gather your Thoughts"))
                     {
-                
-                     
                         
-                        Picker(selection: $etiquetteFocus, label: Text("Etiquette Focus")) {
-                            ForEach(0 ..< self.eti.count) {
-                                Text(self.eti[$0])
-                                }
-
-                            }
+//            Picker (selection: $etiquetteFocus, label: Text("Etiquette Focus"))
+//                    {
+//                        ForEach(0 ..< eti.count)
+//                            {
+//                            Text(self.eti[$0])
+//                                }
+//
+//                                    }
                         
                         
                     Text("Performance Rating")
                         
-                        Slider(value: $etiquetteProgress, in:  1...100, step: 1.0)
-                    
-                        Text("value is \(Double(etiquetteProgress))")
-                        
+                      HStack {
+                           
+                            Slider (value: $etiquetteProgress, in: minimumValue...maximumValue)
+                        //Text("\(etiquetteProgress)")
+                                                   
+                            }
                   
                     
                         TextField("Etiquette Journal Entry", text: self.$etiquetteJournal)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
                      
-                        Button(action: ({
-                                   
-                            let etiq = Etiquette(context: self.managedObjectContext)
-                            etiq.etiquetteFocus = self.newEtiquetteFocus
-                            etiq.etiquetteProgress = self.newEtiquetteProgress
-                            etiq.etiquetteJournal = self.newEtiquetteJournal
-                        
-                            do {
-                                try.self.managedObjectContext.save()
-                            }catch {
-                                print(error)
-                            }
-                            
-                            //reset temporary in-memory storage
-                            self.newEtiquetteFocus = ""
-                            self.newEtiquetteProgress = 0
-                            self.newEtiquetteJournal = ""
-                        }))
-                           
+                       
                         
                     
                     Dashboard()
@@ -116,26 +86,12 @@ struct BandEti: View {
         }
             
 }
-    
-//    func saveEntry() {
-//    let vm = AddEntryBandEtiViewModel()
-//        vm.etiquetteFocus = self.$etiquetteFocus.wrappedValue!
-//    vm.etiquetteJournal = self.$etiquetteJournal.wrappedValue
-//    vm.etiquetteProgress = self.$etiquetteProgress.wrappedValue
-//    vm.saveEntry {
-//        self.showingAlert = true
-//        self.onSave(true)
-//        self.$etiquetteFocus.wrappedValue = ""
-//        self.$etiquetteProgress.wrappedValue = 0
-//        self.$etiquetteJournal.wrappedValue = ""
-//        }
-    }
+
 }
 
-
-
-//struct BandEtiquette_Previews: PreviewProvider {
-//    static var previews: some View {
-//        BandEti(onSave: (true) -> Void)
-//    }
-//}
+struct BandEti_Previews: PreviewProvider {
+    static var previews: some View {
+        BandEti()
+    }
+}
+}
