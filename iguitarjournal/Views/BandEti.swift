@@ -10,16 +10,6 @@ import SwiftUI
 import CoreData
 
 
-@objc(Etiquette)
-public class Etiquette: NSManagedObject {
-    
-}
-extension Etiquette: Identifiable {
-    public var id: String? {
-        return etiquetteFocus
-    }
-}
-
 
 
 struct BandEti: View {
