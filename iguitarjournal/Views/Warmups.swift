@@ -167,22 +167,8 @@ struct Warmups: View {
                     }
                 
                 
-                }.navigationBarTitle("Warmups")
-                    
-                .navigationBarItems(leading:
-                Button("Home") {
-                    print("Home")
-                })
+                }
                 
-                
-                .navigationBarItems(trailing:
-                        Button("End Session") {
-
-                            self.backToContentView.toggle()
-                            
-                            
-                            print("End Session Tapped")
-                        })
             }
         }
      }

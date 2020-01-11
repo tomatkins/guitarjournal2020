@@ -7,7 +7,7 @@
         
         "id":"31b60d38-d2f2-4c25-8fec-ecdceab462c6",
         "routineName": "Warmups",
-        "view": "Warmups()",
+        "view": "Warmups",
         "description": "Essential injury prevention routine",
         "icon":"hand-paper", 
         
@@ -15,7 +15,7 @@
     {
         "id":"fe757be1-63e2-4e33-b490-7f68194add4c",
         "routineName": "Scales and Chords",
-        "view": "ScalesChords()",
+        "view": "ScalesChords",
         "description": "Organizing Melodic and Harmonic Routine",
         "icon":"music",
         
@@ -23,7 +23,7 @@
     {
         "id": "98713bc2-31ab-4be6-8e6a-205c4b5dd396",
         "routineName": "Ear Training",
-        "view": "EarTraining()",
+        "view": "EarTraining",
         "description": "Building the Ear Muscles",
         "icon":"head-side-headphones",
         
@@ -31,7 +31,7 @@
     {
         "id": "b03dd0c2-7d21-4e6d-b5dc-53aa98c54060",
         "routineName": "Music Theory",
-        "view": "MusicTheory()",
+        "view": "MusicTheory",
         "description": "Essential Music Theory Concepts",
         "icon":"icons",
         
@@ -50,7 +50,7 @@
     {
         "id": "62d91e43-26c1-4596-a4d1-deacd01092a4",
         "routineName": "Sight Reading",
-        "view": "SightReading()",
+        "view": "SightReading",
         "description": "Improve your Music Reading Skills",
         "icon":"eye",
         
@@ -58,7 +58,7 @@
     {
         "id": "97c8afe1-8063-483c-b1d5-9a242bafd01e",
         "routineName": "Transcription",
-        "view": "Transcription()",
+        "view": "Transcription",
         "description": "Improve your Music Dictation Skills",
         "icon":"edit",
         
@@ -66,7 +66,7 @@
     {
         "id": "155aa680-01f8-420a-8888-e0280a3011a5",
         "routineName": "Repertoire",
-        "view": "Repertoire()",
+        "view": "Repertoire",
         "description": "Build your Playlist",
         "icon":"list-music",
         
@@ -74,7 +74,7 @@
     {
         "id": "a67d00c5-b78a-40a2-869c-71a253e55f8b",
         "routineName": "Structured Improvisation",
-        "view": "StructuredImprov()",
+        "view": "StructuredImprov",
         "description": "Improve your Improv",
         "icon":"waveform-path",
        
@@ -82,7 +82,7 @@
     {
         "id": "df5f11c9-2cb8-46ab-bf0a-951759184d1c",
         "routineName": "Speed",
-        "view": "Speed()",
+        "view": "Speed",
         "description": "Steps to improve your Speed",
         "icon":"rabbit-fast",
       
@@ -90,7 +90,7 @@
     {
         "id": "f6ec9885-64c5-442e-a5d2-9b860b819f2b",
         "routineName": "Songwriting",
-        "view": "Songwriting()",
+        "view": "Songwriting",
         "description": "Journalize and Organize your own Songs",
         "icon": "gramophone",
        
@@ -98,7 +98,7 @@
     {
         "id": "154764f6-fbc2-445d-acb4-fc9aec60ab3a",
         "routineName": "ToneQuest",
-        "view": "ToneQuest()",
+        "view": "ToneQuest",
         "description": "Chasing that elusive sound in your Head",
         "icon": "amp-guitar",
        
@@ -106,7 +106,7 @@
     {
         "id": "30b5bf01-7516-4bfd-9fc3-69813a3dd4a4",
         "routineName": "EquipmentInventory",
-        "view": "EquipmentInventory()",
+        "view": "EquipmentInventory",
         "description": "Keeping a record of your equipment and maintenance",
         "icon":"guitars",
         
@@ -125,7 +125,7 @@
     {
         "id": "9af4e11a-2cd9-4289-8f03-d516c8cbe082",
         "routineName": "Music Business Planner",
-        "view": "MusicBusinessPlanner()",
+        "view": "MusicBusinessPlanner",
         "description": "Learn and Build your Team",
         "icon": "hands-usd",
        
@@ -133,7 +133,7 @@
     {
         "id": "d4e33ccb-0d3c-41c9-afcc-a5d6b0e182b1",
         "routineName": "Performance Evaluation",
-        "view": "PublicPerformanceEvaluation()",
+        "view": "PublicPerformanceEvaluation",
         "description": "Evaluate your Performance",
         "icon":"tv-music",
        
@@ -149,7 +149,7 @@
     {
         "id": "be221734-325e-46f5-bcf5-bce8b1e97d9b",
         "routineName": "Band Etiquette",
-        "view": "BandEtiquette()",
+        "view": "BandEtiquette",
         "description": "Focus on your Reputation",
         "icon": "user-music",
         

@@ -24,7 +24,7 @@ struct ItemRow: View {
     var body: some View {
         
         NavigationLink(destination:
-        Text(item.view)) {
+        ItemDetail(item: item)) {
         HStack {
             FAText(iconName:(item.icon), size: 40)
                 .foregroundColor(.green)
@@ -37,9 +37,14 @@ struct ItemRow: View {
                 }
             }
         }
-    }
+        //end
+        
+        
+        
+        
+    } //some View
 
-}
+} //View
     
 struct ItemRow_Previews: PreviewProvider {
     static var previews: some View {
