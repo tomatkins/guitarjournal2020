@@ -18,7 +18,6 @@
 		BF5F711D23A2D7CA0038DAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5F711B23A2D7CA0038DAF2 /* LaunchScreen.storyboard */; };
 		BF5F712823A2D7CA0038DAF2 /* iguitarjournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F712723A2D7CA0038DAF2 /* iguitarjournalTests.swift */; };
 		BF5F713323A2D7CA0038DAF2 /* iguitarjournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F713223A2D7CA0038DAF2 /* iguitarjournalUITests.swift */; };
-		BF98C2AA23AB250C008A54DA /* BandEtiquetteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2A923AB250C008A54DA /* BandEtiquetteViewModel.swift */; };
 		BF98C2AC23AB285B008A54DA /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AB23AB285B008A54DA /* Dashboard.swift */; };
 		BF98C2AE23AB2B62008A54DA /* RoutineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */; };
 		BF98C2B323AB2F86008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
@@ -40,13 +39,8 @@
 		BF9F912C23A9B43D00130F1A /* AllRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F912B23A9B43D00130F1A /* AllRoutines.swift */; };
 		BFB33ED823A927E400C14A3D /* Repertoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB33ED723A927E400C14A3D /* Repertoire.swift */; };
 		BFBA648A23AEA38C004345E8 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA648923AEA38C004345E8 /* ItemRow.swift */; };
-		BFBA648C23AEB30A004345E8 /* BandEtiquetteReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA648B23AEB30A004345E8 /* BandEtiquetteReport.swift */; };
-		BFBA648F23AFF625004345E8 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA648E23AFF625004345E8 /* ProfileHost.swift */; };
 		BFBA649123B09D24004345E8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649023B09D24004345E8 /* TextView.swift */; };
-		BFBA649423B13ED7004345E8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649323B13ED7004345E8 /* DataManager.swift */; };
-		BFBA649623B13FC4004345E8 /* NSManagedObjectContext+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649523B13FC4004345E8 /* NSManagedObjectContext+Extension.swift */; };
 		BFBA649823B169ED004345E8 /* BandEti.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649723B169ED004345E8 /* BandEti.swift */; };
-		BFBA649A23B1CED6004345E8 /* AddEntryBandEtiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649923B1CED6004345E8 /* AddEntryBandEtiViewModel.swift */; };
 		BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D5C23A48A4800B12B9A /* Warmups.swift */; };
 		BFF27D5F23A48BEC00B12B9A /* ScalesChords.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */; };
 		BFF27D6123A48C4100B12B9A /* EarTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6023A48C4100B12B9A /* EarTraining.swift */; };
@@ -102,7 +96,6 @@
 		BF5F712E23A2D7CA0038DAF2 /* iguitarjournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iguitarjournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F713223A2D7CA0038DAF2 /* iguitarjournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iguitarjournalUITests.swift; sourceTree = "<group>"; };
 		BF5F713423A2D7CA0038DAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF98C2A923AB250C008A54DA /* BandEtiquetteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEtiquetteViewModel.swift; sourceTree = "<group>"; };
 		BF98C2AB23AB285B008A54DA /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineCell.swift; sourceTree = "<group>"; };
 		BF98C2B223AB2F86008A54DA /* icons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icons.json; sourceTree = "<group>"; };
@@ -114,13 +107,8 @@
 		BF9F912B23A9B43D00130F1A /* AllRoutines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRoutines.swift; sourceTree = "<group>"; };
 		BFB33ED723A927E400C14A3D /* Repertoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repertoire.swift; sourceTree = "<group>"; };
 		BFBA648923AEA38C004345E8 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
-		BFBA648B23AEB30A004345E8 /* BandEtiquetteReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BandEtiquetteReport.swift; path = iguitarjournal/Views/BandEtiquetteReport.swift; sourceTree = SOURCE_ROOT; };
-		BFBA648E23AFF625004345E8 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		BFBA649023B09D24004345E8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		BFBA649323B13ED7004345E8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		BFBA649523B13FC4004345E8 /* NSManagedObjectContext+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extension.swift"; sourceTree = "<group>"; };
 		BFBA649723B169ED004345E8 /* BandEti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEti.swift; sourceTree = "<group>"; };
-		BFBA649923B1CED6004345E8 /* AddEntryBandEtiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddEntryBandEtiViewModel.swift; path = iguitarjournal/viewmodels/AddEntryBandEtiViewModel.swift; sourceTree = SOURCE_ROOT; };
 		BFF27D5C23A48A4800B12B9A /* Warmups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warmups.swift; sourceTree = "<group>"; };
 		BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalesChords.swift; sourceTree = "<group>"; };
 		BFF27D6023A48C4100B12B9A /* EarTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTraining.swift; sourceTree = "<group>"; };
@@ -168,13 +156,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF1E86D823A867DC004C200D /* Core Data */ = {
+		BF1E86D823A867DC004C200D /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				BF5F711123A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld */,
 				BF9F8C8023BE3F240061052D /* BandEtiquette.swift */,
 			);
-			path = "Core Data";
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		BF42366523A82F7400980505 /* Views */ = {
@@ -235,14 +223,10 @@
 			isa = PBXGroup;
 			children = (
 				BF9F8C8223BE70CF0061052D /* Fonts */,
-				BF87584023B1DF3900EE9E21 /* bandetiquette */,
-				BFBA649223B13EAF004345E8 /* Helpers */,
-				BFBA648D23AFF607004345E8 /* profile */,
 				BFF442D723ADC9FD0025BBBD /* Helper.swift */,
 				BF98C2C623AB523C008A54DA /* guitarjournal.json */,
 				BF98C2B223AB2F86008A54DA /* icons.json */,
-				BF98C2A823AB249E008A54DA /* viewmodels */,
-				BF1E86D823A867DC004C200D /* Core Data */,
+				BF1E86D823A867DC004C200D /* CoreData */,
 				BF42366523A82F7400980505 /* Views */,
 				BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */,
 				BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */,
@@ -280,23 +264,6 @@
 			path = iguitarjournalUITests;
 			sourceTree = "<group>";
 		};
-		BF87584023B1DF3900EE9E21 /* bandetiquette */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = bandetiquette;
-			sourceTree = "<group>";
-		};
-		BF98C2A823AB249E008A54DA /* viewmodels */ = {
-			isa = PBXGroup;
-			children = (
-				BFBA649923B1CED6004345E8 /* AddEntryBandEtiViewModel.swift */,
-				BF98C2A923AB250C008A54DA /* BandEtiquetteViewModel.swift */,
-				BFBA648B23AEB30A004345E8 /* BandEtiquetteReport.swift */,
-			);
-			path = viewmodels;
-			sourceTree = "<group>";
-		};
 		BF9F8C8223BE70CF0061052D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,23 +272,6 @@
 				BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		BFBA648D23AFF607004345E8 /* profile */ = {
-			isa = PBXGroup;
-			children = (
-				BFBA648E23AFF625004345E8 /* ProfileHost.swift */,
-			);
-			path = profile;
-			sourceTree = "<group>";
-		};
-		BFBA649223B13EAF004345E8 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				BFBA649323B13ED7004345E8 /* DataManager.swift */,
-				BFBA649523B13FC4004345E8 /* NSManagedObjectContext+Extension.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,7 +427,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5B6E3523BD1EF100615335 /* TestForm.swift in Sources */,
-				BFBA648C23AEB30A004345E8 /* BandEtiquetteReport.swift in Sources */,
 				BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */,
 				BF9F8C8123BE3F240061052D /* BandEtiquette.swift in Sources */,
 				BFF27D6F23A4A34D00B12B9A /* StructuredImprov.swift in Sources */,
@@ -487,12 +436,10 @@
 				BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */,
 				BFF27D6D23A4A2FD00B12B9A /* Speed.swift in Sources */,
 				BFF27D6123A48C4100B12B9A /* EarTraining.swift in Sources */,
-				BFBA649423B13ED7004345E8 /* DataManager.swift in Sources */,
 				BFF27D6323A48DC900B12B9A /* AppView.swift in Sources */,
 				BFF27D5F23A48BEC00B12B9A /* ScalesChords.swift in Sources */,
 				BFF27D7323A4A3AB00B12B9A /* EquipmentInventory.swift in Sources */,
 				BFBA649123B09D24004345E8 /* TextView.swift in Sources */,
-				BF98C2AA23AB250C008A54DA /* BandEtiquetteViewModel.swift in Sources */,
 				BFF27D7B23A4A4F800B12B9A /* MusicBusinessPlanner.swift in Sources */,
 				BFF27D7523A4A3F200B12B9A /* ToneQuest.swift in Sources */,
 				BFF27D6723A4957400B12B9A /* MusicTheory.swift in Sources */,
@@ -503,17 +450,14 @@
 				BFF27D7723A4A46D00B12B9A /* UserPreferences.swift in Sources */,
 				BF5F711023A2D7C90038DAF2 /* SceneDelegate.swift in Sources */,
 				BFF27D7F23A4A5FD00B12B9A /* GoalFocus.swift in Sources */,
-				BFBA649623B13FC4004345E8 /* NSManagedObjectContext+Extension.swift in Sources */,
 				BFF27D6923A4A1C700B12B9A /* Sightreading.swift in Sources */,
 				BFF27D6523A48E6900B12B9A /* ProgressView.swift in Sources */,
 				BF98C2AE23AB2B62008A54DA /* RoutineCell.swift in Sources */,
-				BFBA648F23AFF625004345E8 /* ProfileHost.swift in Sources */,
 				BFF27D7123A4A37900B12B9A /* Songwriting.swift in Sources */,
 				BFBA648A23AEA38C004345E8 /* ItemRow.swift in Sources */,
 				BFF27D7D23A4A59500B12B9A /* PublicPerformanceEvaluation.swift in Sources */,
 				BFB33ED823A927E400C14A3D /* Repertoire.swift in Sources */,
 				BFBA649823B169ED004345E8 /* BandEti.swift in Sources */,
-				BFBA649A23B1CED6004345E8 /* AddEntryBandEtiViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
