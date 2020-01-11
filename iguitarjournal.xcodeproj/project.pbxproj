@@ -35,7 +35,6 @@
 		BF98C2C723AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
 		BF98C2C823AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
 		BF98C2C923AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
-		BF9F8C8123BE3F240061052D /* BandEtiquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F8C8023BE3F240061052D /* BandEtiquette.swift */; };
 		BF9F912C23A9B43D00130F1A /* AllRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F912B23A9B43D00130F1A /* AllRoutines.swift */; };
 		BFB33ED823A927E400C14A3D /* Repertoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB33ED723A927E400C14A3D /* Repertoire.swift */; };
 		BFBA648A23AEA38C004345E8 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA648923AEA38C004345E8 /* ItemRow.swift */; };
@@ -103,7 +102,6 @@
 		BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.otf"; sourceTree = "<group>"; };
 		BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
 		BF98C2C623AB523C008A54DA /* guitarjournal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = guitarjournal.json; path = Views/guitarjournal.json; sourceTree = "<group>"; };
-		BF9F8C8023BE3F240061052D /* BandEtiquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEtiquette.swift; sourceTree = "<group>"; };
 		BF9F912B23A9B43D00130F1A /* AllRoutines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRoutines.swift; sourceTree = "<group>"; };
 		BFB33ED723A927E400C14A3D /* Repertoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repertoire.swift; sourceTree = "<group>"; };
 		BFBA648923AEA38C004345E8 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				BF5F711123A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld */,
-				BF9F8C8023BE3F240061052D /* BandEtiquette.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -428,7 +425,6 @@
 			files = (
 				BF5B6E3523BD1EF100615335 /* TestForm.swift in Sources */,
 				BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */,
-				BF9F8C8123BE3F240061052D /* BandEtiquette.swift in Sources */,
 				BFF27D6F23A4A34D00B12B9A /* StructuredImprov.swift in Sources */,
 				BF5F711323A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld in Sources */,
 				BFF442DA23ADCE930025BBBD /* Routines.swift in Sources */,
