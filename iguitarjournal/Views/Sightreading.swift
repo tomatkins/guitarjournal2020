@@ -1,5 +1,5 @@
 //
-//  Sightreading.swift
+//  SightReading.swift
 //  iguitarjournal
 //
 //  Created by Tom Atkins on 12/13/19.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Sightreading: View {
+struct SightReading: View {
     
     
     var sightReadingSources = [
@@ -105,6 +105,6 @@ struct Sightreading: View {
 
 struct Sightreading_Previews: PreviewProvider {
     static var previews: some View {
-        Sightreading()
+        SightReading()
     }
 }

@@ -11,62 +11,23 @@ import CoreData
 
 struct ContentView: View {
 
+ let menu = Bundle.main.decode([RoutineSection].self, from: "guitarjournal.json")
+    
 
-    
-    @State private var newPracticeSession = ""
-    
-    @State var showWarmup = false
-    @State var showRoutineList = false
-    @State var showingView = false
-    
     var body: some View {
          NavigationView {
             
-                List {
-                    Section(header: Text("Playgrounds")) {
-                        
-            
-            
-            Button(action: {
-                    self.showRoutineList.toggle()
-                           })
-            {
-                    Text("Show All Routines")
-                       }.sheet(isPresented: $showRoutineList) {
-                       Routines()
-                   }
-                    
-                        
-                        Button(action: {
-                            self.showingView.toggle()
-                                        })
-                                   {
-                                    Text("Start Beginner Routine")
-                                    }.sheet(isPresented: $showingView)
-                                    {
-                                    Warmups()
-                                    }
-//
+            List {
+                ForEach(menu) { section in
+                Section(header: Text(section.name))
+                {
+                ForEach(section.routines) { item in
+                    ItemRow(item: item)
                     }
-                    
-                                   Section (header: Text("Unguided")) {
-                                   
-                                    Text("Free Play/Unguided")
-                                   
-                                   }
-                                   
-                                   Section (header: Text("Instructor Led"))
-                                   {
-                                   Text("Foundations of Rock Guitar")
-                                   Text("Musician's Institute")
-                                   Text("Berklee School of Music")
-                                   }
-                                   
-                                   Section (header: Text("App Settings")) {
-                                   Text("About Guitar Journal")
-                                   Text("Practice Summary")
-                                   }
-                               }.listStyle(GroupedListStyle())
+                }
+            }
+                
+            }.listStyle(GroupedListStyle())
                                .navigationBarTitle("iGuitarJournal")
                            }
                        }

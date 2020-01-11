@@ -13,7 +13,13 @@ struct ItemRow: View {
     var item: AllRoutines
     
     
+    
+    
+    
     var body: some View {
+        
+        NavigationLink(destination:
+        Text(item.routineName)) {
         HStack {
             FAText(iconName:(item.icon), size: 40)
                 .foregroundColor(.green)
@@ -22,11 +28,14 @@ struct ItemRow: View {
             Text(item.routineName)
                 .font(.headline)
             Text(item.description)
-        }
+                .font(.subheadline)
+                }
+            }
         }
     }
-}
 
+}
+    
 struct ItemRow_Previews: PreviewProvider {
     static var previews: some View {
         ItemRow(item: AllRoutines.example)

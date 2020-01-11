@@ -46,7 +46,7 @@
 		BFF27D6323A48DC900B12B9A /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6223A48DC900B12B9A /* AppView.swift */; };
 		BFF27D6523A48E6900B12B9A /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6423A48E6900B12B9A /* ProgressView.swift */; };
 		BFF27D6723A4957400B12B9A /* MusicTheory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6623A4957400B12B9A /* MusicTheory.swift */; };
-		BFF27D6923A4A1C700B12B9A /* Sightreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6823A4A1C700B12B9A /* Sightreading.swift */; };
+		BFF27D6923A4A1C700B12B9A /* SightReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6823A4A1C700B12B9A /* SightReading.swift */; };
 		BFF27D6B23A4A20200B12B9A /* Transcription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6A23A4A20200B12B9A /* Transcription.swift */; };
 		BFF27D6D23A4A2FD00B12B9A /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6C23A4A2FD00B12B9A /* Speed.swift */; };
 		BFF27D6F23A4A34D00B12B9A /* StructuredImprov.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6E23A4A34D00B12B9A /* StructuredImprov.swift */; };
@@ -113,7 +113,7 @@
 		BFF27D6223A48DC900B12B9A /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		BFF27D6423A48E6900B12B9A /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		BFF27D6623A4957400B12B9A /* MusicTheory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTheory.swift; sourceTree = "<group>"; };
-		BFF27D6823A4A1C700B12B9A /* Sightreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sightreading.swift; sourceTree = "<group>"; };
+		BFF27D6823A4A1C700B12B9A /* SightReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightReading.swift; sourceTree = "<group>"; };
 		BFF27D6A23A4A20200B12B9A /* Transcription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transcription.swift; sourceTree = "<group>"; };
 		BFF27D6C23A4A2FD00B12B9A /* Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
 		BFF27D6E23A4A34D00B12B9A /* StructuredImprov.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredImprov.swift; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 				BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */,
 				BFF27D6023A48C4100B12B9A /* EarTraining.swift */,
 				BFF27D6623A4957400B12B9A /* MusicTheory.swift */,
-				BFF27D6823A4A1C700B12B9A /* Sightreading.swift */,
+				BFF27D6823A4A1C700B12B9A /* SightReading.swift */,
 				BFF27D6A23A4A20200B12B9A /* Transcription.swift */,
 				BFB33ED723A927E400C14A3D /* Repertoire.swift */,
 				BFF27D6E23A4A34D00B12B9A /* StructuredImprov.swift */,
@@ -446,7 +446,7 @@
 				BFF27D7723A4A46D00B12B9A /* UserPreferences.swift in Sources */,
 				BF5F711023A2D7C90038DAF2 /* SceneDelegate.swift in Sources */,
 				BFF27D7F23A4A5FD00B12B9A /* GoalFocus.swift in Sources */,
-				BFF27D6923A4A1C700B12B9A /* Sightreading.swift in Sources */,
+				BFF27D6923A4A1C700B12B9A /* SightReading.swift in Sources */,
 				BFF27D6523A48E6900B12B9A /* ProgressView.swift in Sources */,
 				BF98C2AE23AB2B62008A54DA /* RoutineCell.swift in Sources */,
 				BFF27D7123A4A37900B12B9A /* Songwriting.swift in Sources */,

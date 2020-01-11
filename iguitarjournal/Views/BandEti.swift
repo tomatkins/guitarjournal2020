@@ -52,14 +52,14 @@ struct BandEti: View {
                     Section (header: Text("Gather your Thoughts"))
                     {
                         
-//            Picker (selection: $etiquetteFocus, label: Text("Etiquette Focus"))
-//                    {
-//                        ForEach(0 ..< eti.count)
-//                            {
-//                            Text(self.eti[$0])
-//                                }
-//
-//                                    }
+            Picker (selection: $etiquetteFocus, label: Text("Etiquette Focus"))
+                    {
+                        ForEach(0 ..< eti.count)
+                            {
+                            Text(self.eti[$0])
+                                }
+
+                                    }
                         
                         
                     Text("Performance Rating")

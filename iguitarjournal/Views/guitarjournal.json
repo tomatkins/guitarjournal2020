@@ -14,7 +14,7 @@
     },
     {
         "id":"fe757be1-63e2-4e33-b490-7f68194add4c",
-        "routineName": "Scales/Chords",
+        "routineName": "ScalesChords",
         "playground": ["B", "I", "P"],
         "description": "Organizing Melodic and Harmonic Routine",
         "icon":"music",
@@ -22,7 +22,7 @@
     },
     {
         "id": "98713bc2-31ab-4be6-8e6a-205c4b5dd396",
-        "routineName": "Ear Training",
+        "routineName": "EarTraining",
         "playground": ["B", "I", "P"],
         "description": "Building the Ear Muscles",
         "icon":"head-side-headphones",
@@ -30,9 +30,9 @@
     },
     {
         "id": "b03dd0c2-7d21-4e6d-b5dc-53aa98c54060",
-        "routineName": "Music Theory",
+        "routineName": "MusicTheory",
         "playground": ["B", "I", "P"],
-        "description": "Understanding Essential Music Theory Concepts",
+        "description": "Essential Music Theory Concepts",
         "icon":"icons",
         
 

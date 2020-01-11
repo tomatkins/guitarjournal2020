@@ -7,11 +7,9 @@
 //
 
 import SwiftUI
-import CoreData
 
 struct ProgressView: View {
  
-    @Environment(\.managedObjectContext) var managedObjectContext
 
 
 
