@@ -9,7 +9,12 @@
 import SwiftUI
 import FASwiftUI
 
+
+
+
+
 struct ItemRow: View {
+    
     var item: AllRoutines
     
     
@@ -19,7 +24,7 @@ struct ItemRow: View {
     var body: some View {
         
         NavigationLink(destination:
-        Text(item.routineName)) {
+        Text(item.view)) {
         HStack {
             FAText(iconName:(item.icon), size: 40)
                 .foregroundColor(.green)

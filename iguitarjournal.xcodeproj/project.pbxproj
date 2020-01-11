@@ -18,6 +18,7 @@
 		BF5F711D23A2D7CA0038DAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5F711B23A2D7CA0038DAF2 /* LaunchScreen.storyboard */; };
 		BF5F712823A2D7CA0038DAF2 /* iguitarjournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F712723A2D7CA0038DAF2 /* iguitarjournalTests.swift */; };
 		BF5F713323A2D7CA0038DAF2 /* iguitarjournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F713223A2D7CA0038DAF2 /* iguitarjournalUITests.swift */; };
+		BF659ECC23CA3C1A007AFF44 /* BandEtiquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF659ECB23CA3C1A007AFF44 /* BandEtiquette.swift */; };
 		BF98C2AC23AB285B008A54DA /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AB23AB285B008A54DA /* Dashboard.swift */; };
 		BF98C2AE23AB2B62008A54DA /* RoutineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */; };
 		BF98C2B323AB2F86008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
@@ -39,7 +40,6 @@
 		BFB33ED823A927E400C14A3D /* Repertoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB33ED723A927E400C14A3D /* Repertoire.swift */; };
 		BFBA648A23AEA38C004345E8 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA648923AEA38C004345E8 /* ItemRow.swift */; };
 		BFBA649123B09D24004345E8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649023B09D24004345E8 /* TextView.swift */; };
-		BFBA649823B169ED004345E8 /* BandEti.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649723B169ED004345E8 /* BandEti.swift */; };
 		BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D5C23A48A4800B12B9A /* Warmups.swift */; };
 		BFF27D5F23A48BEC00B12B9A /* ScalesChords.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */; };
 		BFF27D6123A48C4100B12B9A /* EarTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D6023A48C4100B12B9A /* EarTraining.swift */; };
@@ -95,6 +95,7 @@
 		BF5F712E23A2D7CA0038DAF2 /* iguitarjournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iguitarjournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F713223A2D7CA0038DAF2 /* iguitarjournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iguitarjournalUITests.swift; sourceTree = "<group>"; };
 		BF5F713423A2D7CA0038DAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF659ECB23CA3C1A007AFF44 /* BandEtiquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEtiquette.swift; sourceTree = "<group>"; };
 		BF98C2AB23AB285B008A54DA /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineCell.swift; sourceTree = "<group>"; };
 		BF98C2B223AB2F86008A54DA /* icons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icons.json; sourceTree = "<group>"; };
@@ -106,7 +107,6 @@
 		BFB33ED723A927E400C14A3D /* Repertoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repertoire.swift; sourceTree = "<group>"; };
 		BFBA648923AEA38C004345E8 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		BFBA649023B09D24004345E8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		BFBA649723B169ED004345E8 /* BandEti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEti.swift; sourceTree = "<group>"; };
 		BFF27D5C23A48A4800B12B9A /* Warmups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warmups.swift; sourceTree = "<group>"; };
 		BFF27D5E23A48BEC00B12B9A /* ScalesChords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalesChords.swift; sourceTree = "<group>"; };
 		BFF27D6023A48C4100B12B9A /* EarTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarTraining.swift; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 				BFF27D7A23A4A4F800B12B9A /* MusicBusinessPlanner.swift */,
 				BFF27D7C23A4A59500B12B9A /* PublicPerformanceEvaluation.swift */,
 				BFF27D7E23A4A5FD00B12B9A /* GoalFocus.swift */,
-				BFBA649723B169ED004345E8 /* BandEti.swift */,
+				BF659ECB23CA3C1A007AFF44 /* BandEtiquette.swift */,
 				BFBA649023B09D24004345E8 /* TextView.swift */,
 				BF98C2AB23AB285B008A54DA /* Dashboard.swift */,
 				BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */,
@@ -434,6 +434,7 @@
 				BFF27D6123A48C4100B12B9A /* EarTraining.swift in Sources */,
 				BFF27D6323A48DC900B12B9A /* AppView.swift in Sources */,
 				BFF27D5F23A48BEC00B12B9A /* ScalesChords.swift in Sources */,
+				BF659ECC23CA3C1A007AFF44 /* BandEtiquette.swift in Sources */,
 				BFF27D7323A4A3AB00B12B9A /* EquipmentInventory.swift in Sources */,
 				BFBA649123B09D24004345E8 /* TextView.swift in Sources */,
 				BFF27D7B23A4A4F800B12B9A /* MusicBusinessPlanner.swift in Sources */,
@@ -453,7 +454,6 @@
 				BFBA648A23AEA38C004345E8 /* ItemRow.swift in Sources */,
 				BFF27D7D23A4A59500B12B9A /* PublicPerformanceEvaluation.swift in Sources */,
 				BFB33ED823A927E400C14A3D /* Repertoire.swift in Sources */,
-				BFBA649823B169ED004345E8 /* BandEti.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -96,7 +96,7 @@ struct MusicTheory: View {
                                         {
                                         Text("Sight Reading")
                                         .sheet(isPresented: $showingNextView){
-                                        Sightreading()
+                                        SightReading()
                                         }
                                     }
                        

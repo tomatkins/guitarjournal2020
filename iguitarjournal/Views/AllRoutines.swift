@@ -17,14 +17,14 @@ struct RoutineSection: Codable, Identifiable {
 struct AllRoutines: Codable, Equatable, Identifiable {
     var id: UUID
     var routineName: String
-    var playground: [String]
+    var view: String
     var description: String
     var icon: String
 
 
     #if DEBUG
     
-    static let example = AllRoutines(id: UUID(), routineName: "Warmups", playground: ["B", "I", "P"], description: "Essential injury prevention routine", icon: "hand-paper")
+    static let example = AllRoutines(id: UUID(), routineName: "Warmups", view: "Warmups()", description: "Essential injury prevention routine", icon: "hand-paper")
     
     #endif
 }
