@@ -10,25 +10,38 @@ import SwiftUI
 
 struct ItemDetail: View {
     
+
+    
+    
     var item: AllRoutines
     
-   
     
     
     var body: some View {
-       
-            Warmups()
+        
+        NavigationView {
+            VStack  {
+                 Warmups()
+           
+                }
+               
+                    
                .navigationBarTitle(Text(item.routineName), displayMode: .inline)
+            }
+          
+            }
+         
+        }
+    
+    
 
-              
-    }
-       }
 
 
+    
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             ItemDetail(item: AllRoutines.example)
-     }
-}
+        }
+    }
 }

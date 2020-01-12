@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF5B6E3523BD1EF100615335 /* TestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5B6E3423BD1EF100615335 /* TestForm.swift */; };
 		BF5C38C223ADE5D50035ED6D /* FASwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BF5C38C123ADE5D50035ED6D /* FASwiftUI */; };
 		BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */; };
 		BF5F711023A2D7C90038DAF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */; };
@@ -16,29 +15,18 @@
 		BF5F711723A2D7CA0038DAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5F711623A2D7CA0038DAF2 /* Assets.xcassets */; };
 		BF5F711A23A2D7CA0038DAF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5F711923A2D7CA0038DAF2 /* Preview Assets.xcassets */; };
 		BF5F711D23A2D7CA0038DAF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5F711B23A2D7CA0038DAF2 /* LaunchScreen.storyboard */; };
-		BF5F712823A2D7CA0038DAF2 /* iguitarjournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F712723A2D7CA0038DAF2 /* iguitarjournalTests.swift */; };
-		BF5F713323A2D7CA0038DAF2 /* iguitarjournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F713223A2D7CA0038DAF2 /* iguitarjournalUITests.swift */; };
 		BF659ECC23CA3C1A007AFF44 /* BandEtiquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF659ECB23CA3C1A007AFF44 /* BandEtiquette.swift */; };
 		BF659ED023CA4BC4007AFF44 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF659ECF23CA4BC4007AFF44 /* ItemDetail.swift */; };
 		BF98C2AC23AB285B008A54DA /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AB23AB285B008A54DA /* Dashboard.swift */; };
 		BF98C2AE23AB2B62008A54DA /* RoutineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF98C2AD23AB2B62008A54DA /* RoutineCell.swift */; };
 		BF98C2B323AB2F86008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
 		BF98C2B623AB30BA008A54DA /* fa-solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */; };
-		BF98C2B823AB3281008A54DA /* fa-solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */; };
-		BF98C2B923AB3282008A54DA /* fa-solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B423AB30B9008A54DA /* fa-solid-900.otf */; };
-		BF98C2BC23AB3297008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
-		BF98C2BD23AB3298008A54DA /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2B223AB2F86008A54DA /* icons.json */; };
 		BF98C2BF23AB3480008A54DA /* fa-brands-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */; };
-		BF98C2C023AB3480008A54DA /* fa-brands-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */; };
-		BF98C2C123AB3480008A54DA /* fa-brands-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2BE23AB3480008A54DA /* fa-brands-400.otf */; };
 		BF98C2C323AB354C008A54DA /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */; };
-		BF98C2C423AB354C008A54DA /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */; };
-		BF98C2C523AB354C008A54DA /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C223AB354C008A54DA /* fa-regular-400.ttf */; };
 		BF98C2C723AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
-		BF98C2C823AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
-		BF98C2C923AB523C008A54DA /* guitarjournal.json in Resources */ = {isa = PBXBuildFile; fileRef = BF98C2C623AB523C008A54DA /* guitarjournal.json */; };
 		BF9F912C23A9B43D00130F1A /* AllRoutines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F912B23A9B43D00130F1A /* AllRoutines.swift */; };
 		BFB33ED823A927E400C14A3D /* Repertoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB33ED723A927E400C14A3D /* Repertoire.swift */; };
+		BFB345B323CACBA80009BC5C /* TimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB345B223CACBA80009BC5C /* TimerData.swift */; };
 		BFBA648A23AEA38C004345E8 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA648923AEA38C004345E8 /* ItemRow.swift */; };
 		BFBA649123B09D24004345E8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA649023B09D24004345E8 /* TextView.swift */; };
 		BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF27D5C23A48A4800B12B9A /* Warmups.swift */; };
@@ -62,25 +50,7 @@
 		BFF442DA23ADCE930025BBBD /* Routines.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF442D923ADCE930025BBBD /* Routines.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BF5F712423A2D7CA0038DAF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF5F710223A2D7C90038DAF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF5F710923A2D7C90038DAF2;
-			remoteInfo = iguitarjournal;
-		};
-		BF5F712F23A2D7CA0038DAF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF5F710223A2D7C90038DAF2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF5F710923A2D7C90038DAF2;
-			remoteInfo = iguitarjournal;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		BF5B6E3423BD1EF100615335 /* TestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestForm.swift; path = iguitarjournal/Views/TestForm.swift; sourceTree = "<group>"; };
 		BF5F710A23A2D7C90038DAF2 /* iguitarjournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iguitarjournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F710D23A2D7C90038DAF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5F710F23A2D7C90038DAF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,10 +60,8 @@
 		BF5F711923A2D7CA0038DAF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF5F711C23A2D7CA0038DAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5F711E23A2D7CA0038DAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF5F712323A2D7CA0038DAF2 /* iguitarjournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iguitarjournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F712723A2D7CA0038DAF2 /* iguitarjournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iguitarjournalTests.swift; sourceTree = "<group>"; };
 		BF5F712923A2D7CA0038DAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF5F712E23A2D7CA0038DAF2 /* iguitarjournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iguitarjournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5F713223A2D7CA0038DAF2 /* iguitarjournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iguitarjournalUITests.swift; sourceTree = "<group>"; };
 		BF5F713423A2D7CA0038DAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF659ECB23CA3C1A007AFF44 /* BandEtiquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandEtiquette.swift; sourceTree = "<group>"; };
@@ -107,6 +75,7 @@
 		BF98C2C623AB523C008A54DA /* guitarjournal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = guitarjournal.json; path = Views/guitarjournal.json; sourceTree = "<group>"; };
 		BF9F912B23A9B43D00130F1A /* AllRoutines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRoutines.swift; sourceTree = "<group>"; };
 		BFB33ED723A927E400C14A3D /* Repertoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repertoire.swift; sourceTree = "<group>"; };
+		BFB345B223CACBA80009BC5C /* TimerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerData.swift; path = iguitarjournal/TimerData.swift; sourceTree = SOURCE_ROOT; };
 		BFBA648923AEA38C004345E8 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		BFBA649023B09D24004345E8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		BFF27D5C23A48A4800B12B9A /* Warmups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warmups.swift; sourceTree = "<group>"; };
@@ -139,20 +108,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF5F712023A2D7CA0038DAF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF5F712B23A2D7CA0038DAF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -171,6 +126,7 @@
 				BF659ECF23CA4BC4007AFF44 /* ItemDetail.swift */,
 				BFF27D6223A48DC900B12B9A /* AppView.swift */,
 				BF5F711423A2D7C90038DAF2 /* ContentView.swift */,
+				BFB345B223CACBA80009BC5C /* TimerData.swift */,
 				BFF442D923ADCE930025BBBD /* Routines.swift */,
 				BF9F912B23A9B43D00130F1A /* AllRoutines.swift */,
 				BFF27D7623A4A46D00B12B9A /* UserPreferences.swift */,
@@ -201,7 +157,6 @@
 		BF5F710123A2D7C90038DAF2 = {
 			isa = PBXGroup;
 			children = (
-				BF5B6E3423BD1EF100615335 /* TestForm.swift */,
 				BF5F710C23A2D7C90038DAF2 /* iguitarjournal */,
 				BF5F712623A2D7CA0038DAF2 /* iguitarjournalTests */,
 				BF5F713123A2D7CA0038DAF2 /* iguitarjournalUITests */,
@@ -213,8 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				BF5F710A23A2D7C90038DAF2 /* iguitarjournal.app */,
-				BF5F712323A2D7CA0038DAF2 /* iguitarjournalTests.xctest */,
-				BF5F712E23A2D7CA0038DAF2 /* iguitarjournalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,42 +250,6 @@
 			productReference = BF5F710A23A2D7C90038DAF2 /* iguitarjournal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF5F712223A2D7CA0038DAF2 /* iguitarjournalTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF5F713A23A2D7CA0038DAF2 /* Build configuration list for PBXNativeTarget "iguitarjournalTests" */;
-			buildPhases = (
-				BF5F711F23A2D7CA0038DAF2 /* Sources */,
-				BF5F712023A2D7CA0038DAF2 /* Frameworks */,
-				BF5F712123A2D7CA0038DAF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF5F712523A2D7CA0038DAF2 /* PBXTargetDependency */,
-			);
-			name = iguitarjournalTests;
-			productName = iguitarjournalTests;
-			productReference = BF5F712323A2D7CA0038DAF2 /* iguitarjournalTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BF5F712D23A2D7CA0038DAF2 /* iguitarjournalUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF5F713D23A2D7CA0038DAF2 /* Build configuration list for PBXNativeTarget "iguitarjournalUITests" */;
-			buildPhases = (
-				BF5F712A23A2D7CA0038DAF2 /* Sources */,
-				BF5F712B23A2D7CA0038DAF2 /* Frameworks */,
-				BF5F712C23A2D7CA0038DAF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF5F713023A2D7CA0038DAF2 /* PBXTargetDependency */,
-			);
-			name = iguitarjournalUITests;
-			productName = iguitarjournalUITests;
-			productReference = BF5F712E23A2D7CA0038DAF2 /* iguitarjournalUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -345,14 +262,6 @@
 				TargetAttributes = {
 					BF5F710923A2D7C90038DAF2 = {
 						CreatedOnToolsVersion = 11.3;
-					};
-					BF5F712223A2D7CA0038DAF2 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = BF5F710923A2D7C90038DAF2;
-					};
-					BF5F712D23A2D7CA0038DAF2 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = BF5F710923A2D7C90038DAF2;
 					};
 				};
 			};
@@ -373,8 +282,6 @@
 			projectRoot = "";
 			targets = (
 				BF5F710923A2D7C90038DAF2 /* iguitarjournal */,
-				BF5F712223A2D7CA0038DAF2 /* iguitarjournalTests */,
-				BF5F712D23A2D7CA0038DAF2 /* iguitarjournalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -395,30 +302,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF5F712123A2D7CA0038DAF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF98C2C023AB3480008A54DA /* fa-brands-400.otf in Resources */,
-				BF98C2C823AB523C008A54DA /* guitarjournal.json in Resources */,
-				BF98C2C423AB354C008A54DA /* fa-regular-400.ttf in Resources */,
-				BF98C2BC23AB3297008A54DA /* icons.json in Resources */,
-				BF98C2B823AB3281008A54DA /* fa-solid-900.otf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF5F712C23A2D7CA0038DAF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF98C2C123AB3480008A54DA /* fa-brands-400.otf in Resources */,
-				BF98C2C923AB523C008A54DA /* guitarjournal.json in Resources */,
-				BF98C2C523AB354C008A54DA /* fa-regular-400.ttf in Resources */,
-				BF98C2BD23AB3298008A54DA /* icons.json in Resources */,
-				BF98C2B923AB3282008A54DA /* fa-solid-900.otf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -426,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF5B6E3523BD1EF100615335 /* TestForm.swift in Sources */,
 				BF5F710E23A2D7C90038DAF2 /* AppDelegate.swift in Sources */,
 				BFF27D6F23A4A34D00B12B9A /* StructuredImprov.swift in Sources */,
 				BF5F711323A2D7C90038DAF2 /* iguitarjournal.xcdatamodeld in Sources */,
@@ -434,6 +316,7 @@
 				BFF27D6B23A4A20200B12B9A /* Transcription.swift in Sources */,
 				BFF27D5D23A48A4800B12B9A /* Warmups.swift in Sources */,
 				BFF27D6D23A4A2FD00B12B9A /* Speed.swift in Sources */,
+				BFB345B323CACBA80009BC5C /* TimerData.swift in Sources */,
 				BFF27D6123A48C4100B12B9A /* EarTraining.swift in Sources */,
 				BFF27D6323A48DC900B12B9A /* AppView.swift in Sources */,
 				BFF27D5F23A48BEC00B12B9A /* ScalesChords.swift in Sources */,
@@ -461,36 +344,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF5F711F23A2D7CA0038DAF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF5F712823A2D7CA0038DAF2 /* iguitarjournalTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF5F712A23A2D7CA0038DAF2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF5F713323A2D7CA0038DAF2 /* iguitarjournalUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BF5F712523A2D7CA0038DAF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF5F710923A2D7C90038DAF2 /* iguitarjournal */;
-			targetProxy = BF5F712423A2D7CA0038DAF2 /* PBXContainerItemProxy */;
-		};
-		BF5F713023A2D7CA0038DAF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF5F710923A2D7C90038DAF2 /* iguitarjournal */;
-			targetProxy = BF5F712F23A2D7CA0038DAF2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BF5F711B23A2D7CA0038DAF2 /* LaunchScreen.storyboard */ = {
@@ -658,90 +512,6 @@
 			};
 			name = Release;
 		};
-		BF5F713B23A2D7CA0038DAF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82D84WHWLC;
-				INFOPLIST_FILE = iguitarjournalTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.highstrungpro.iguitarjournalTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iguitarjournal.app/iguitarjournal";
-			};
-			name = Debug;
-		};
-		BF5F713C23A2D7CA0038DAF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82D84WHWLC;
-				INFOPLIST_FILE = iguitarjournalTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.highstrungpro.iguitarjournalTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iguitarjournal.app/iguitarjournal";
-			};
-			name = Release;
-		};
-		BF5F713E23A2D7CA0038DAF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82D84WHWLC;
-				INFOPLIST_FILE = iguitarjournalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.highstrungpro.iguitarjournalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iguitarjournal;
-			};
-			name = Debug;
-		};
-		BF5F713F23A2D7CA0038DAF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 82D84WHWLC;
-				INFOPLIST_FILE = iguitarjournalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.highstrungpro.iguitarjournalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iguitarjournal;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -759,24 +529,6 @@
 			buildConfigurations = (
 				BF5F713823A2D7CA0038DAF2 /* Debug */,
 				BF5F713923A2D7CA0038DAF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF5F713A23A2D7CA0038DAF2 /* Build configuration list for PBXNativeTarget "iguitarjournalTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF5F713B23A2D7CA0038DAF2 /* Debug */,
-				BF5F713C23A2D7CA0038DAF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF5F713D23A2D7CA0038DAF2 /* Build configuration list for PBXNativeTarget "iguitarjournalUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF5F713E23A2D7CA0038DAF2 /* Debug */,
-				BF5F713F23A2D7CA0038DAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
