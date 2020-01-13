@@ -9,9 +9,7 @@
 import SwiftUI
 
 struct ItemDetail: View {
-    
 
-    
     
     var item: AllRoutines
     
@@ -20,14 +18,13 @@ struct ItemDetail: View {
     var body: some View {
         
         NavigationView {
-            VStack  {
+          
                  Warmups()
            
-                }
                
-                    
-               .navigationBarTitle(Text(item.routineName), displayMode: .inline)
-            }
+            
+               
+            }.navigationBarTitle(Text(item.routineName), displayMode: .inline)
           
             }
          

@@ -13,6 +13,7 @@ struct UserPreferences: View {
     
     @State private var showingAdvancedOptions = false
     @State private var enableLogging = false
+     @State private var upload = false
     
     
     var body: some View {
@@ -27,8 +28,16 @@ struct UserPreferences: View {
                         Toggle(isOn: $enableLogging) {
                             Text("Enable Logging")
                         }
+                        
+                    }
+                    if upload {
+                    Toggle(isOn: $upload) {
+                        Text("Auto Upload to iguitarjournal.com")
+                    
+                    }
                     }
                 }
+                    
             }
                 Text("User Preferences View")
             

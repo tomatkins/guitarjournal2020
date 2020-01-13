@@ -82,8 +82,7 @@ struct Warmups: View {
     var body: some View {
         
         
-        NavigationView {
-            
+       
 //           Button(action: {
 //                self.showingAlert = true
 //            }) {
@@ -169,7 +168,7 @@ struct Warmups: View {
                 
                 }
                 
-            }
+            
         }
      }
     }
